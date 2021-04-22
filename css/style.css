@@ -11,6 +11,7 @@ header,
 footer {
   margin: 0.5rem;
   border: 1px solid #bbb;
+  border-radius: 12px;
   padding: 0.5rem;
   background-color: #bed;
 }
