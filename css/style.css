@@ -4,7 +4,7 @@ body {
 header,
 main,
 footer {
-  max-width: 700px;
+  max-width: 710px;
   margin: 1 auto;
 }
 header,
@@ -21,8 +21,12 @@ header img {
   height: auto;
 }
 h1 {
-  padding: 1.5;
+  text-align: center;
 }
 h2 {
   margin: 0.5rem;
+  
+}
+footer{
+   text-align: center;
 }
