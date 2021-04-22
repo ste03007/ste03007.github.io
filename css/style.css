@@ -4,8 +4,8 @@ body {
 header,
 main,
 footer {
-   max-width: 760px;
-   margin: 0 auto;
+  max-width: 760px;
+  margin: 0 auto;
 }
 header,
 footer {
@@ -16,8 +16,7 @@ footer {
 }
 
 header img {
-   float: right;
-   width: 200px;
-   height: auto;
-
+  float: right;
+  width: 200px;
+  height: auto;
 }
