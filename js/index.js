@@ -1,2 +1,2 @@
-document.querySelector("#theyear").textContent = document.getFullYear;
+document.querySelector("#copyright-year").innerText = new Date().getFullYear();
 document.querySelector("#lastmod").textContent = document.lastModified;
