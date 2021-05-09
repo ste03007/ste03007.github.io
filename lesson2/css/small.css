@@ -4,8 +4,7 @@ header {
   padding: 1.5rem;
 }
 
-main,
-footer {
+main {
   font-family: "Ubuntu";
 }
 
@@ -15,16 +14,14 @@ body {
 }
 
 header,
-main,
-footer {
+main {
   margin: 1.25rem auto;
   max-width: 1000px;
   font-family: "Ubuntu";
   border: .5px solid #76FF03;
 }
 
-header,
-footer {
+header {
   background-color: #33691E;
   color: #fff;
   text-align: center;
