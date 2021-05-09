@@ -3,6 +3,6 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   section:nth-child(3) {
-    grid-column: span1;
+    grid-column: span 1;
   }
 }
