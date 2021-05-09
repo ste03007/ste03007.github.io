@@ -1,11 +1,11 @@
 header {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: "Be Vietnam", sans-serif;
   padding: 1.5rem;
 }
 
 main,
 footer {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 body {
@@ -27,7 +27,6 @@ footer {
   text-align: center;
   border-radius: 0.5rem;
 }
-
 
 footer .lastupdated2 {
   text-align: center;
