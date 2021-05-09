@@ -1,5 +1,7 @@
-@media only screen and(min-width: 32.5em){
-    img{
-        float: right;
-    }
+@media only screen and (min-width: 32em) {
+   img{
+       float:right;
+   }
+
 }
+  
