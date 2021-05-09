@@ -1,9 +1,61 @@
+header {
+  font-family: 'Be Vietnam', sans-serif;
+  padding: 1.5rem;
+}
+
+main,
+footer {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header,
+main,
+footer {
+  margin: 1.25rem auto;
+  max-width: 1000px;
+}
+
+header,
+footer {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+
+footer .lastupdated2 {
+  text-align: center;
+  font-size: 0.9rem;
+  color: yellow;
+  border-bottom: 1px solid yellowgreen;
+}
+
+h3 {
+  background-color: red;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+section {
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid black;
+}
+
 main {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
 }
-main section {
-  margin: 0.5rem;
-  border: 1px solid #bbb;
-  padding: 0 1rem;
+
+section img {
+  box-shadow: 0 0 30px #333;
+  width: 100%;
+  height: auto;
 }
