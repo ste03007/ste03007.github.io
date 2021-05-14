@@ -2,4 +2,9 @@
   nav ul {
     flex-flow: row wrap;
   }
+    #colors tr td:nth-child(1),
+#colors tr td:nth-child(3){
+    display: revert;
+}
+
 }

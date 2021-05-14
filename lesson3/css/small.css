@@ -52,3 +52,34 @@ nav ul li a {
 nav a:hover {
   color: #00a7e1;
 }
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color:#00a7e1;
+}
+#colors {
+    border-collapse: collapse;
+    margin: 15px;
+}
+#colors tr {
+    height: 200px;
+}
+#colors tr td{
+    text-align: center;
+    vertical-align: bottom;
+    width: 100x;
+    padding: 15px;
+}
+#colors tr td:nth-child(1),
+#colors tr td:nth-child(3){
+    display: none;
+}
+.primary{
+    background-color: #FFFFFF;
+}
+.secondary{
+    background-color: #00a7e1;
+}
+.accent1{
+    background-color: #00171F;
+}
