@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 body {
-    font-family: 'Ubuntu';
+  font-family: "Ubuntu";
 }
-header,footer,main,nav{
+header,
+footer,
+main,
+nav {
   max-width: 80em;
   margin: 0 auto;
 }
 main {
   padding: 15px;
 }
-header,footer {
+header,
+footer {
   background-color: #00a7e1;
   color: #ffffff;
   padding: 15px;
@@ -19,15 +23,16 @@ header,footer {
   flex-direction: column;
   justify-content: center;
 }
-section p, section img{
-    padding-left: 15px;
+section p,
+section img {
+  padding-left: 15px;
 }
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 nav {
   text-align: center;
@@ -37,14 +42,13 @@ nav ul {
   justify-content: center;
   flex-direction: column;
 }
-nav ul li{
-    padding: 15px;
-    flex: 1 1 auto;
+nav ul li {
+  padding: 15px;
+  flex: 1 1 auto;
 }
 nav ul li a {
-    padding: 15px;
+  padding: 15px;
 }
 nav a:hover {
-    color:#00a7e1;
-
+  color: #00a7e1;
 }
