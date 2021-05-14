@@ -52,27 +52,19 @@ nav ul li a {
 nav a:hover {
   color: #00a7e1;
 }
-tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: #00a7e1;
-}
-#colors {
+
+#colorsT {
   border-collapse: collapse;
   margin: 15px;
 }
-#colors tr {
-  height: 200px;
+#colorsT tr {
+    height: 300px;
 }
-#colors tr td {
+#colorsT tr td {
   text-align: center;
   vertical-align: bottom;
-  width: 100x;
+  width: 250px;
   padding: 15px;
-}
-#colors tr td:nth-child(1),
-#colors tr td:nth-child(3) {
-  display: none;
 }
 .primary {
   background-color: #ffffff;
@@ -94,8 +86,4 @@ tbody {
   border: 1px solid #00171f;
   padding: 5px;
   width: 250px;
-}
-#Table tr td:nth-child(2),
-#Table tr th:nth-child(2){
-  display: none;
 }
