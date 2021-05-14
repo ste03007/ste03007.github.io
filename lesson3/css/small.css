@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url(https://coolors.co/ffffff-00a7e1-00171f);
 body {
   font-family: "Ubuntu";
 }
@@ -52,35 +53,52 @@ nav ul li a {
 nav a:hover {
   color: #00a7e1;
 }
-tbody{
-    display: table-row-group;
-    vertical-align: middle;
-    border-color:#00a7e1;
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: #00a7e1;
 }
 #colors {
-    border-collapse: collapse;
-    margin: 15px;
+  border-collapse: collapse;
+  margin: 15px;
 }
 #colors tr {
-    height: 200px;
+  height: 200px;
 }
-#colors tr td{
-    text-align: center;
-    vertical-align: bottom;
-    width: 100x;
-    padding: 15px;
+#colors tr td {
+  text-align: center;
+  vertical-align: bottom;
+  width: 100x;
+  padding: 15px;
 }
 #colors tr td:nth-child(1),
-#colors tr td:nth-child(3){
-    display: none;
+#colors tr td:nth-child(3) {
+  display: none;
 }
-.primary{
-    background-color: #FFFFFF;
+.primary {
+  background-color: #ffffff;
 }
-.secondary{
-    background-color: #00a7e1;
+.secondary {
+  background-color: #00a7e1;
 }
-.accent1{
-    background-color: #00171F;
-    color:#FFFFFF
+.accent1 {
+  background-color: #00171f;
+  color: #ffffff;
+}
+#Table {
+  border-collapse: collapse;
+  margin: 15px;
+  font-size: 20px;
+}
+#Table tr td,
+#typographyTable tr th {
+  border: 1px solid #00171f;
+  padding: 5px;
+  width: 250px;
+}
+#Table tr td:nth-child(2),
+#Table tr th:nth-child(2),
+#Table tr td:nth-child(3),
+#Table tr th:nth-child(3) {
+  display: none;
 }
