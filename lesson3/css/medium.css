@@ -1,5 +1,4 @@
 @media only screen and (min-width: 32em) {
-    img {
-      float: right;
+    nav ul {
+        flex-flow: row wrap;
     }
-  }

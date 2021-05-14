@@ -26,9 +26,8 @@ img {
     max-width: 100%;
     height: auto;
 }
-main {
-  display: grid;
-  grid-template-columns: auto;
+li {
+    list-style-type: none;
 }
 nav {
   text-align: center;
