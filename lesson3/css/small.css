@@ -97,8 +97,6 @@ tbody {
   width: 250px;
 }
 #Table tr td:nth-child(2),
-#Table tr th:nth-child(2),
-#Table tr td:nth-child(3),
-#Table tr th:nth-child(3) {
+#Table tr th:nth-child(2){
   display: none;
 }
