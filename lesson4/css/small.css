@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   font-family: "Ubuntu";
 }
@@ -10,6 +11,7 @@ main {
 header,
 nav {
   margin: 0 auto;
+  font-family: "Ubuntu";
 }
 
 header {
@@ -70,7 +72,9 @@ nav {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
+.responsive li {
+	display: block;
+}
 nav a:hover {
   background-color: #00a7e1;
   color: #ffffff;
@@ -114,11 +118,12 @@ h1 {
 
 h2 {
   font-size: 16px;
-    color: #ffffff;
+    color: #00a7e1;
+    
   }
   h3 {
     font-size: 14px;
-    color: #153e5c;
+    color: ##00a7e1;
   }
   p {
     font-size: 12px;

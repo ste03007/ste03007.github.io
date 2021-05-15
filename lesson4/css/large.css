@@ -1,20 +1,18 @@
 @media only screen and (min-width: 32.5em) {
 header img {
-    width: 180px;
-} 
-
-.headings h1{
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
+    width: 150px;
 }
 h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 70px;
+    
   }
-
+  h3 {
+    font-size: 25px;
+}
   .navigation a {
     font-size: 20px;
   }
