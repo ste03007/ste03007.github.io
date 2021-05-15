@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap");
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 body {
   font-family: "ubuntu";
 }
@@ -16,7 +21,7 @@ header,
 nav {
   margin: 0 auto;
 }
-/* heading */
+
 header {
   background-color: #00a7e1;
   display: flex;
@@ -46,7 +51,7 @@ header img {
 nav {
   background-color: #00a7e1;
 }
-.nav-bar {
+.navigation {
   max-width: 80em;
   list-style: none;
   background-color: #00a7e1;
@@ -54,14 +59,14 @@ nav {
   padding: 0;
   text-align: center;
 }
-.nav-bar li:first-child {
+.navigation li:first-child {
   display: block;
 }
-.nav-bar li {
+.navigation li {
   display: none;
   color: #ffffff;
 }
-.nav-bar a {
+.navigation a {
   display: block;
   font-size: 16px;
   color: #ffffff;
@@ -81,7 +86,7 @@ nav a:hover {
   border-left: 4px solid #00a7e1;
   border-right: 4px solid #00a7e1;
 }
-/* temp main divs */
+
 main {
   display: flex;
   flex-direction: column;
@@ -94,11 +99,29 @@ main div {
   padding: 15px;
 }
 
-/* footer */
 footer {
   background-color: #00a7e1;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+footer p {
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 20px;
+	color: #00a7e1;
+}
+h2 {
+	font-size: 16px;
+	color: #00a7e1;
+}
+h3 {
+	font-size: 14px;
+	color: #00a7e1;
+}
+p {
+	font-size: 12px;
 }
