@@ -25,7 +25,7 @@ header img {
 .logo {
   display: flex;
   flex-direction: column;
-  margin-left: 900px;
+  margin-left: 9px;
 }
 .logo h1 {
   font-size: 20px;
@@ -37,7 +37,17 @@ header img {
   font-style: italic;
   font-size: 12px;
 }
-
+.box {
+    display: flex;
+    align-items: flex-start;
+    height: 80px;
+  }
+  .box>*:first-child {
+      align-self: stretch;
+  }
+  .box .selected {
+      align-self: left;
+  }
 nav {
   background-color: #00a7e1;
 }
@@ -101,10 +111,8 @@ footer {
 footer p {
   font-size: 14px;
 }
-
-h1 {
-  font-size: large;
-  color: #ffff;
+h1{
+    color:#ffff;
 }
 h2 {
   font-size: 16px;
