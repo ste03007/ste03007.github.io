@@ -66,9 +66,7 @@ nav {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.responsive li {
-  display: block;
-}
+
 nav a:hover {
   background-color: #00a7e1;
   color: #ffffff;
