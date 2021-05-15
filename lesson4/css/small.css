@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   font-family: "Ubuntu";
 }
@@ -45,13 +45,12 @@ header img {
 }
 .moto {
   color: #ffffff;
-  font-style: "Ubuntu";
   font-size: 10px;
 }
 .box {
   display: flex;
   flex-direction: column;
-  flex: start;
+
 }
 .logo h1 {
   font-size: 18px;
