@@ -21,8 +21,19 @@ header {
 }
 
 header img {
-  width: 80px;
+  display:flex;
+  width: 70px;
   height: auto;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.headings h1 {
+	font-size: 20px;
+	color: #ffffff;
+	margin: 0;
 }
 .logo {
   display: flex;
