@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap");
+
+body {
+  font-family: "ubuntu";
+}
+footer,
+main {
+  max-width: 80em;
+  margin: 0 auto;
+}
+header,
+nav {
+  margin: 0 auto;
+}
+/* heading */
+header {
+  background-color: #00a7e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  width: 80px;
+  height: auto;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.logo h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+}
+.moto {
+  color: #00a7e1;
+  font-style: italic;
+  font-size: 12px;
+}
+/*header navigation */
+nav {
+  background-color: #00a7e1;
+}
+.nav-bar {
+  max-width: 80em;
+  list-style: none;
+  background-color: #00a7e1;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.nav-bar li:first-child {
+  display: block;
+}
+.nav-bar li {
+  display: none;
+}
+.nav-bar a {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.responsive li {
+  display: block;
+}
+nav a:hover {
+  background-color: #00171f;
+  color: #ffffff;
+}
+.active {
+  background-color: #00171f;
+  border-left: 4px solid #00a7e1;
+  border-right: 4px solid #00a7e1;
+}
+/* temp main divs */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+main div {
+  border: dotted 1px #00a7e1;
+  background-color: #00171f;
+  margin: 15px;
+  padding: 15px;
+}
+
+/* footer */
+footer {
+  background-color: #00a7e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
