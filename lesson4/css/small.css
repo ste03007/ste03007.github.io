@@ -96,7 +96,7 @@ main div {
 
 footer {
   background-color: #00a7e1;
-  
+
   display:flex;
   align-items: center;
   justify-content:center;
@@ -115,4 +115,11 @@ h1 {
 h2 {
   font-size: 16px;
     color: #ffffff;
+  }
+  h3 {
+    font-size: 14px;
+    color: #153e5c;
+  }
+  p {
+    font-size: 12px;
   }
