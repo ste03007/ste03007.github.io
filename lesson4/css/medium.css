@@ -1,18 +1,22 @@
 @media only screen and (min-width: 40em) {
   h1 {
     font-size: 20px;
+    font-family: "Ubuntu";
   }
   h2 {
     font-size: 25px;
+    font-family: "Ubuntu";
   }
   h3 {
     font-size: 20px;
+    font-family: "Ubuntu";
   }
   p {
     font-size: 16px;
+    font-family: "Ubuntu";
   }
   header img {
-    width: 128px;
+    width: 98px;
   }
   .headings h1 {
     font-size: 40px;
@@ -35,9 +39,8 @@
   }
   nav ul {
     flex-flow: row wrap;
+    font-family: "Ubuntu";
   }
   footer p {
     font-size: 20px;
   }
-  
-}

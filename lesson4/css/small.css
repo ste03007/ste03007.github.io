@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   font-family: "Ubuntu";
 }
 
 footer,
 main {
-  max-width:80em;
+  max-width: 80em;
   margin: 0 auto;
 }
 header,
@@ -19,31 +19,35 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Ubuntu";
 }
 
-header img {  
-  width: 80px;
+header img {
+  width: 50px;
   height: auto;
 }
 .headings {
-	display: flex;
-	flex-direction: column;
-	margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-family: "Ubuntu";
 }
 .headings h1 {
-	font-size: 20px;
-	color: #ffffff;
-	margin: 0;
+  display:flex;
+  flex-direction: column;
+  font-size: 10px;
+  color: #ffffff;
+  font-family: "Ubuntu";
 }
 
 .logo h1 {
   font-size: 20px;
   color: #ffffff;
-  margin: 0;
+  margin: auto;
 }
 .moto {
   color: #00a7e1;
-  font-style: italic;
+  font-style: "Ubuntu";
   font-size: 12px;
 }
 nav {
@@ -52,28 +56,31 @@ nav {
 .navigation {
   max-width: 80em;
   list-style: none;
-  background-color: #00171f;
+  background-color:#00171f;
   margin: 0 auto;
   padding: 0;
-  text-align: left;
+  text-align: center;
+  font-family: "Ubuntu";
 }
 .navigation li:first-child {
   display: block;
+  font-family: "Ubuntu";
 }
 .navigation li {
-  display: none;  
+  display: none;
 }
 
 .navigation a {
   display: block;
   font-size: 18px;
-  color: #ffffff;
-  text-decoration: none;
+  color:#ffff;
+  text-decoration:#00a7e1;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-family: "Ubuntu";
 }
 .responsive li {
-	display: block;
+  display: block;
 }
 nav a:hover {
   background-color: #00a7e1;
@@ -89,6 +96,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
+  font-family: "Ubuntu";
 }
 
 main div {
@@ -96,19 +104,21 @@ main div {
   background-color: #00a7e1;
   margin: 15px;
   padding: 15px;
+  font-family: "Ubuntu";
 }
 
 footer {
   background-color: #00a7e1;
 
-  display:flex;
+  display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 24px;
+  color: #ffffff;
 }
 
 h1 {
@@ -118,13 +128,13 @@ h1 {
 
 h2 {
   font-size: 16px;
-    color: #00a7e1;
-    
-  }
-  h3 {
-    font-size: 14px;
-    color: ##00a7e1;
-  }
-  p {
-    font-size: 12px;
-  }
+  color: #00a7e1;
+}
+h3 {
+  font-size: 14px;
+  color: #00a7e1;
+}
+
+p {
+  font-size: 12px;
+}

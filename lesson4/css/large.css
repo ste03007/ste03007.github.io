@@ -3,15 +3,18 @@ header img {
     width: 150px;
 }
 h1 {
-    font-size: 20px;
+    font-size: 40px;
+    font-family: "Ubuntu";
   }
 
   h2 {
     font-size: 70px;
-    
+    font-family: "Ubuntu";
+
   }
   h3 {
     font-size: 25px;
+    font-family: "Ubuntu";
 }
   .navigation a {
     font-size: 20px;
