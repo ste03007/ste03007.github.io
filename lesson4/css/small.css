@@ -42,13 +42,12 @@ header img {
   color: #ffffff;
   font-family: "Ubuntu";
 }
-.headings h2 {
-  display:flex;
-  flex-direction: column;
-  font-size: 18px;
-  color: #ffffff;
-  font-family: "Ubuntu";
+.moto {
+	color: #f2be54;
+	font-style: italic;
+	font-size: 12px;
 }
+
 .logo h1 {
   font-size: 18px;
   color: #ffffff;
@@ -129,8 +128,8 @@ footer p {
 }
 
 h1 {
-  color: #ffff;
-  padding-left: 8px;
+	font-size: 20px;
+	color: #153e5c;
 }
 
 h2 {
