@@ -5,10 +5,10 @@
     <meta name="viewport" content="witdth=device-width, inital-scale=1.0" />
     <meta name="author" content="Clinten Stewart" />
     <title>Heading Example</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
   </head>
 
   <body>
@@ -18,22 +18,20 @@
         <h1>Predictable Weather Now</h1>
       </div>
     </header>
-    <nav>
-      <ul class="nav-bar">
-        <li><a class="ham" href="#">☰ Menu</a></li>
-        <li><a href="#">Home</a></li>
-        <li class="active"><a href="preston-4.html">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="#">Gallery</a></li>
-      </ul>
-    </nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">☰ Menu</a></li>
+      <li><a href="./">Home</a></li>
+      <li class="active"><a href="preston-4.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
     <main>
-        <div>hero image/weather summary</div>
-        <div>5 Day forecast</div>
-        <div>article</div>
-        <div>contact information</div>
+      <div>hero image/weather summary</div>
+      <div>5 Day forecast</div>
+      <div>article</div>
+      <div>contact information</div>
     </main>
 
     <footer>
@@ -41,8 +39,11 @@
         href="https://www.byui.edu/online"
         >BYUI Online Learning</a
       >
-      <p>Last Modified: <span id="lastmod"></span></p>
+      <span id="output">
     </footer>
-    <script src="js/index.js"></script>
+    <script>
+      var d = new Date("2015-03-25");
+      document.getElementById("demo").innerHTML = d;
+    </script>
   </body>
 </html>
