@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body {
   font-family: "ubuntu";
 }
@@ -103,4 +103,15 @@ footer p {
 h1 {
   font-size: 20px;
   color: #00a7e1;
+}
+h2 {
+  font-size: 16px;
+  color: #153e5c;
+}
+h3 {
+  font-size: 14px;
+  color: #153e5c;
+}
+p {
+  font-size: 12px;
 }
