@@ -29,26 +29,32 @@ header img {
 .headings {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+  margin-left: 18px;
   font-family: "Ubuntu";
 }
 .headings h1 {
   display:flex;
   flex-direction: column;
-  font-size: 10px;
+  font-size: 18px;
   color: #ffffff;
   font-family: "Ubuntu";
 }
-
+.headings h2 {
+  display:flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Ubuntu";
+}
 .logo h1 {
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
   margin: auto;
 }
 .moto {
   color: #00a7e1;
   font-style: "Ubuntu";
-  font-size: 12px;
+  font-size: 4px;
 }
 nav {
   background-color: #00171f;
@@ -96,6 +102,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
+  color:#ffffff;
   font-family: "Ubuntu";
 }
 
@@ -114,6 +121,7 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: #ffffff;
 }
 
 footer p {
@@ -123,12 +131,13 @@ footer p {
 
 h1 {
   color: #ffff;
-  padding-left: 20px;
+  padding-left: 8px;
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 15px;
   color: #00a7e1;
+  text-align: center;
 }
 
 h3 {
