@@ -17,8 +17,7 @@ header {
   padding: 5px 0;
   display: flex;
   align-items: center;
-  justify-content: left;
-  height: 150px;
+  justify-content: center;
 }
 
 header img {
@@ -38,11 +37,6 @@ header img {
   font-style: italic;
   font-size: 12px;
 }
-.box {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 nav {
   background-color: #00171f;
 }
