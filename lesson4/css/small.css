@@ -24,11 +24,9 @@ header img {
   height: 110px;
 }
 .logo {
-    position:absolute;
-    center: 10px;
-    top:10px;
-    margin: 0px 15px 15px 0px;
-  }
+  display:flex;
+  
+}
 .logo h1 {
   font-size: 20px;
   color: #ffffff;
