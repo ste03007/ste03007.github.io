@@ -42,7 +42,6 @@ header img {
 .box {
     display: flex;
     flex-wrap: wrap;
-    flex-flow:;
   }
 
 nav {
