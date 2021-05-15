@@ -1,4 +1,3 @@
-
 body {
   font-family: "Ubuntu";
 }
@@ -24,8 +23,7 @@ header img {
   height: 110px;
 }
 .logo {
-  display:flex;
-  
+  display: flex;
 }
 .logo h1 {
   font-size: 20px;
@@ -38,14 +36,12 @@ header img {
   font-size: 12px;
 }
 .box {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
 
 nav {
   background-color: #00171f;
-  
-  
 }
 .navigation {
   max-width: 120em;
@@ -74,26 +70,25 @@ nav {
   display: block;
 }
 nav a:hover {
-  background-color: #00171f;
+  background-color: #00a7e1;
   color: #ffffff;
 }
 .active {
   background-color: #00171f;
-  border-left: 4px solid #00171f;;
-  border-right: 4px solid #00171f;
+  border-left: 4px solid #00a7e1;
+  border-right: 4px solid #00a7e1;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  padding: 90px;
-  margin-left: 210px;
+  padding: 15px;
 }
 
 main div {
-  border: dotted 1px #00a7e1;
+  border: #00171f 1px #00a7e1;
   background-color: #00a7e1;
-  margin: 40px;
+  margin: 15px;
   padding: 15px;
 }
 
@@ -103,14 +98,15 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 50px;
+
 }
+
 footer p {
   font-size: 14px;
 }
-h1{
-    color:#ffff;
-    padding-left: 20px;
+h1 {
+  color: #ffff;
+  padding-left: 20px;
 }
 h2 {
   font-size: 16px;
