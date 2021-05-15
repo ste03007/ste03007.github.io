@@ -17,11 +17,11 @@ main {
   margin: 1.25rem auto;
   max-width: 1000px;
   font-family: "Ubuntu";
-  border: .5px solid #76FF03;
+  border: 0.5px solid #76ff03;
 }
 
 header {
-  background-color: #33691E;
+  background-color: #33691e;
   color: #fff;
   text-align: center;
   border-radius: 0.5rem;
@@ -30,7 +30,7 @@ header {
 
 h3 {
   font-family: "Ubuntu";
-  background-color:#33691E;
+  background-color: #33691e;
   color: #fff;
   border-radius: 1.2rem;
   text-align: center;
@@ -40,7 +40,7 @@ section {
   background-color: lightgrey;
   border-radius: 1.9rem;
   margin: 0.9rem;
-  border: .6px solid #76FF03;
+  border: 0.6px solid #76ff03;
   text-align: center;
 }
 
@@ -50,7 +50,7 @@ main {
 }
 
 section img {
-  box-shadow: 0 0 90px #33691E;
+  box-shadow: 0 0 90px #33691e;
   width: 90%;
   height: auto;
 }
