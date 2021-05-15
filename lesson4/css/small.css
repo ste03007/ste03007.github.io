@@ -16,9 +16,8 @@ nav {
   margin: 0 auto;
   font-family: "Ubuntu";
 }
-section{
-  display:flex;
-
+section {
+  display: flex;
 }
 
 header {
@@ -36,22 +35,21 @@ header img {
 .headings {
   display: flex;
   flex-direction: column;
-  
 }
 .headings h1 {
-  display:flex;
+  display: flex;
   flex-direction: column;
   font-size: 18px;
   color: #ffffff;
   font-family: "Ubuntu";
 }
 .moto {
-	color: #ffffff;
-	font-style: "Ubuntu";
-	font-size: 10px;
+  color: #ffffff;
+  font-style: "Ubuntu";
+  font-size: 10px;
 }
 .box {
-  display:flex;
+  display: flex;
   flex-direction: column;
   flex: start;
 }
@@ -67,7 +65,7 @@ nav {
 .navigation {
   max-width: 80em;
   list-style: none;
-  background-color:#00171f;
+  background-color: #00171f;
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -84,8 +82,8 @@ nav {
 .navigation a {
   display: block;
   font-size: 18px;
-  color:#ffff;
-  text-decoration:#00a7e1;
+  color: #ffff;
+  text-decoration: #00a7e1;
   padding-top: 15px;
   padding-bottom: 15px;
   font-family: "Ubuntu";
@@ -107,8 +105,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  color:#ffffff;
-
+  color: #ffffff;
 }
 
 main div {
@@ -135,8 +132,8 @@ footer p {
 }
 
 h1 {
-	font-size: 20px;
-	color: #153e5c;
+  font-size: 20px;
+  color: #153e5c;
 }
 
 h2 {
@@ -146,7 +143,7 @@ h2 {
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 34px;
   color: #ffffff;
 }
 
