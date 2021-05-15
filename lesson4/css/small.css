@@ -33,9 +33,7 @@ header img {
 	color: #ffffff;
 	margin: 0;
 }
-.logo {
-  display: flex;
-}
+
 .logo h1 {
   font-size: 20px;
   color: #ffffff;
@@ -50,7 +48,7 @@ nav {
   background-color: #00171f;
 }
 .navigation {
-  max-width: 120em;
+  max-width: 80em;
   list-style: none;
   background-color: #00171f;
   margin: 0 auto;
@@ -61,12 +59,12 @@ nav {
   display: block;
 }
 .navigation li {
-  display: none;
-  color: #ffffff;
+  display: none;  
 }
+
 .navigation a {
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   text-decoration: none;
   padding-top: 15px;
@@ -98,10 +96,11 @@ main div {
 
 footer {
   background-color: #00a7e1;
-  padding: 5px 0;
+  
   display:flex;
   align-items: center;
   justify-content:center;
+  text-align: center;
 }
 
 footer p {
