@@ -50,7 +50,11 @@ header img {
 	font-style: "Ubuntu";
 	font-size: 10px;
 }
-
+.box {
+  display:flex;
+  flex-direction: column;
+  flex: start;
+}
 .logo h1 {
   font-size: 18px;
   color: #ffffff;
