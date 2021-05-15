@@ -16,7 +16,7 @@ header {
   background-color: #00a7e1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 header img {
   width: 80px;
@@ -39,15 +39,11 @@ header img {
 }
 .box {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
     height: 80px;
+    margin-left: 320px;
   }
-  .box>*:first-child {
-      align-self: stretch;
-  }
-  .box .selected {
-      align-self: left;
-  }
+
 nav {
   background-color: #00a7e1;
 }
