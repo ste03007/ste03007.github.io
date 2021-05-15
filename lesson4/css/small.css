@@ -38,7 +38,7 @@ header img {
   font-style: italic;
   font-size: 12px;
 }
-/*header navigation */
+
 nav {
   background-color: #00a7e1;
 }
@@ -55,11 +55,12 @@ nav {
 }
 .nav-bar li {
   display: none;
+  color: #ffffff;
 }
 .nav-bar a {
   display: block;
   font-size: 16px;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   padding-top: 15px;
   padding-bottom: 15px;
