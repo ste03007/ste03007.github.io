@@ -68,11 +68,11 @@ nav {
   display: block;
 }
 nav a:hover {
-  background-color: #00171f;
+  background-color: #00a7e1;
   color: #ffffff;
 }
 .active {
-  background-color: #00171f;
+  background-color: #00a7e1;
   border-left: 4px solid #00a7e1;
   border-right: 4px solid #00a7e1;
 }
@@ -84,7 +84,7 @@ main {
 }
 main div {
   border: dotted 1px #00a7e1;
-  background-color: #00171f;
+  background-color: #00a7e1;
   margin: 15px;
   padding: 15px;
 }
