@@ -1,48 +1,56 @@
 @media only screen and (min-width: 40em) {
   h1 {
-    font-size: 20px;
-    font-family: "Ubuntu";
-  }
-  h2 {
+    font-size: 30px;
+
+}
+h2 {
     font-size: 25px;
-    font-family: "Ubuntu";
-  }
-  h3 {
+
+}
+h3 {
     font-size: 20px;
-    font-family: "Ubuntu";
-  }
-  p {
+
+}
+p {
     font-size: 16px;
-    font-family: "Ubuntu";
-  }
-  header img {
-    width: 98px;
-  }
-  .headings h1 {
+
+}
+header img {
+    width: 108px;
+
+}
+.headings h1 {
     font-size: 40px;
-  }
-  .moto {
+
+}
+.moto {
     font-size: 22px;
-  }
-  .navigation {
-    display: flex;
-  }
-  .navigation li {
+
+}
+.navigation {
+display: flex;
+
+}
+.navigation li {
     flex: 1 1 auto;
-    display: block;
-  }
-  .navigation li:first-child {
-    display: none;
-  }
-  .navigation a {
+display: block;
+
+}
+.navigation li:first-child {
+display: none;
+
+}
+.navigation a {
     font-size: 18px;
+
   }
-  nav ul {
+nav ul {
     flex-flow: row wrap;
-    font-family: "Ubuntu";
+
   }
-  footer p {
+footer p {
     font-size: 20px;
+
   }
 
 }

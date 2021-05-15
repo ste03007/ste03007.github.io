@@ -2,7 +2,10 @@
 body {
   font-family: "Ubuntu";
 }
-
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
 footer,
 main {
   max-width: 80em;
@@ -17,6 +20,7 @@ section{
   display:flex;
 
 }
+
 header {
   background-color: #00a7e1;
   display: flex;
@@ -32,8 +36,7 @@ header img {
 .headings {
   display: flex;
   flex-direction: column;
-  margin-left: 18px;
-  font-family: "Ubuntu";
+  
 }
 .headings h1 {
   display:flex;
@@ -43,7 +46,7 @@ header img {
   font-family: "Ubuntu";
 }
 .moto {
-	color: #f2be54;
+	color: #00a7e1;
 	font-style: italic;
 	font-size: 12px;
 }
@@ -101,7 +104,7 @@ main {
   flex-direction: column;
   padding: 15px;
   color:#ffffff;
-  font-family: "Ubuntu";
+
 }
 
 main div {
