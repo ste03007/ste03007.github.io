@@ -23,13 +23,13 @@ section {
 header {
   background-color: #00a7e1;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content:center;
   font-family: "Ubuntu";
 }
 
 header img {
-  width: 50px;
+  width: 60px;
   height: auto;
 }
 .headings {
@@ -50,7 +50,7 @@ header img {
 .box {
   display: flex;
   flex-direction: column;
-
+  padding: 22px;
 }
 .logo h1 {
   font-size: 18px;
@@ -72,12 +72,15 @@ nav {
 }
 .navigation li:first-child {
   display: block;
-  font-family: "Ubuntu";
+  text-align: center;
 }
 .navigation li {
   display: none;
+  text-align: center;
 }
-
+.contentbox{
+  text-align: center;
+}
 .navigation a {
   display: block;
   font-size: 18px;
@@ -126,26 +129,26 @@ footer {
 }
 
 footer p {
-  font-size: 24px;
+  font-size: 14px;
   color: #ffffff;
 }
 
 h1 {
   font-size: 20px;
-  color: #153e5c;
+  color: #00171f;
 }
 
 h2 {
-  font-size: 15px;
-  color: #ffffff;
+  font-size: 25px;
+  color: #00171f;
   text-align: center;
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 14px;
   color: #ffffff;
 }
 
 p {
-  font-size: 12px;
+  font-size: 10px;
 }
