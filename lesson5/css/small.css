@@ -1,0 +1,154 @@
+
+body {
+  font-family: "Ubuntu";
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+footer,
+main {
+  max-width: 80em;
+  margin: 0 auto;
+}
+header,
+nav {
+  margin: 0 auto;
+  font-family: "Ubuntu";
+}
+section {
+  display: flex;
+}
+
+header {
+  background-color: #00a7e1;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  font-family: "Ubuntu";
+}
+
+header img {
+  width: 60px;
+  height: auto;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+.headings h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Ubuntu";
+}
+.moto {
+  color: #ffffff;
+  font-size: 10px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+.logo h1 {
+  font-size: 18px;
+  color: #ffffff;
+  margin: auto;
+}
+
+nav {
+  background-color: #00171f;
+}
+.navigation {
+  max-width: 80em;
+  list-style: none;
+  background-color: #00171f;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: "Ubuntu";
+}
+.navigation li:first-child {
+  display: block;
+  text-align: center;
+}
+.navigation li {
+  display: none;
+  text-align: center;
+}
+.contentbox{
+  text-align: center;
+}
+.navigation a {
+  display: block;
+  font-size: 18px;
+  color: #ffff;
+  text-decoration: #00a7e1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Ubuntu";
+}
+.responsive li {
+  display: block;
+}
+nav a:hover {
+  background-color: #00a7e1;
+  color: #ffffff;
+}
+.active {
+  background-color: #00171f;
+  border-left: 4px solid #00a7e1;
+  border-right: 4px solid #00a7e1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  color: #ffffff;
+}
+
+main div {
+  border: #00171f 1px #00a7e1;
+  background-color: #00a7e1;
+  margin: 15px;
+  padding: 15px;
+  font-family: "Ubuntu";
+}
+
+footer {
+  background-color: #00a7e1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 20px;
+  color: #00171f;
+}
+
+h2 {
+  font-size: 25px;
+  color: #00171f;
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 10px;
+}
