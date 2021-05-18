@@ -9,8 +9,9 @@ window.onresize = () => {
     }
 }
 
-var currentDate = new Date();
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const datefield = document.querySelector("date");
 
-document.getElementById("output").innerHTML = days[currentDate.getDay()] + ", " + currentDate.getDate() + " " + months[currentDate.getMonth()] + " " + currentDate.getFullYear();
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full"}).format(now);
+
+datefield.textContent = fulldate;
