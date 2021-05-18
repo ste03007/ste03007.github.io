@@ -1,17 +1,41 @@
-const hamButton = document.querySelector('.ham');
-const mainMenu = document.querySelector('.navigation');
+const hamButton = document.querySelector(".ham");
+const mainMenu = document.querySelector(".navigation");
 
-hamButton.addEventListener('click', () =>{mainMenu.classList.toggle('responsive')}, false);
+hamButton.addEventListener(
+  "click",
+  () => {
+    mainMenu.classList.toggle("responsive");
+  },
+  false
+);
 
 window.onresize = () => {
-    if(window.innerWidth > 760){
-        mainMenu.classList.remove('responsive');
-    }
-}
+  if (window.innerWidth > 760) {
+    mainMenu.classList.remove("responsive");
+  }
+};
 
-const datefield = document.querySelector("date");
-
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full"}).format(now);
-
-datefield.textContent = fulldate;
+const daynames = [
+    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+];
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+const todaysdate = new Date();
+const dayName = daynames[todaysdate.getDay()];
+const monthName = months[todaysdate.getMonth()];
+const year = todaysdate.getFullYear();
+const currentDate = dayName + ", " + todaysdate.getDate() + " " + monthName + " " + year;
+const options = {weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'};
+document.getElementById("currentDate").textContent = currentDate;
