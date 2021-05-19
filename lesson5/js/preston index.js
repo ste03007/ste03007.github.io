@@ -50,3 +50,6 @@ const options = {
   year: "numeric",
 };
 document.getElementById("currentDate").textContent = currentDate;
+
+
+const 
