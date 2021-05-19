@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Week 1 WDD 230</title>
+    <meta name="Clint Stewart" content="WDD 230 " />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link
+      rel="normalize"
+      href="https://sdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="googleapis"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+
     <title>BOM</title>
     <h1>📘 Book of Mormon - Top 25</h1>
     <main>
-      <main>
+      
         <div class="input">
           <label for="chapter">Enter Book and Chapter</label>
           <input id="chapter" type="text" id="fav" placeholder="Alma 5">
@@ -15,35 +34,10 @@
           
           </ul>
       </div>
-      <script>
-            
-      const list = document.querySelector('ul');
-      const input = document.querySelector('input');
-      const button = document.querySelector('button');
+      <body>      
+        <script src="js/bom.js">        
+        </script>
 
-      button.onclick = function() {
-        let myItem = input.value;
-        input.value = '';
-
-        const listItem = document.createElement('li');
-        const listText = document.createElement('span');
-        const listBtn = document.createElement('button');
-
-        listItem.appendChild(listText);
-        listText.textContent = myItem;
-        listItem.appendChild(listBtn);
-        listBtn.textContent = 'X';
-        list.appendChild(listItem);
-
-        listBtn.onclick = function(e) {
-          list.removeChild(listItem);
-        }
-
-        input.focus();
-      }
-      </script>
-      <body>
-        <script src="js/preston index.js"></script>
       </body>
     </main>
   </head>
