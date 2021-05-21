@@ -64,11 +64,9 @@ nav {
 .navigation {
   max-width: 80em;
   list-style: none;
-  background-color: #00171f;
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  font-family: "Ubuntu";
 }
 .navigation li:first-child {
   display: block;
@@ -77,6 +75,7 @@ nav {
 .navigation li {
   display: none;
   text-align: center;
+  height: 50px;
 }
 .contentbox{
   text-align: center;
