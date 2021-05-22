@@ -17,10 +17,9 @@
     max-height: 13px;
   }
 
-  .navigation a {
-    font-size: 20px;
-  }
-}
 div.acurate {
   font-size: 1.7rem;
+}
+nav ul {
+  text: 100px;
 }

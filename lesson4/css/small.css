@@ -93,6 +93,8 @@ nav li:first-child {
   text-align: center;
 }
 .responsive li {
+  display: block;
+  background: #dbf5ff;
 }
 nav a:hover {
   background-color: #00a7e1;
