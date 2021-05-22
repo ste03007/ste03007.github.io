@@ -1,57 +1,43 @@
 @media only screen and (min-width: 40em) {
   h1 {
     font-size: 30px;
-
-}
-h2 {
+  }
+  h2 {
     font-size: 25px;
-
-}
-h3 {
+  }
+  h3 {
     font-size: 20px;
-
-}
-p {
+  }
+  p {
     font-size: 16px;
-
-}
-header img {
+  }
+  header img {
     width: 108px;
     height: auto;
-
-}
-.headings h1 {
+  }
+  .headings h1 {
     font-size: 40px;
-
-}
-.moto {
+  }
+  .moto {
     font-size: 22px;
-
-}
-.navigation {
-display: flex;
-
-}
-.navigation li {
+  }
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    display: flex;
     flex: 1 1 auto;
-display: block;
-
-}
-.navigation li:first-child {
-display: none;
-
-}
-.navigation a {
+  }
+  nav li:first-child {
+    display: none;
+  }
+  nav a {
     font-size: 18px;
-
   }
-nav ul {
+  nav ul {
     flex-flow: row wrap;
-
   }
-footer p {
+  footer p {
     font-size: 20px;
-
   }
-
 }

@@ -1,6 +1,7 @@
 
 body {
   font-family: "Ubuntu";
+  color: #00171f
 }
 html {
   line-height: 1.15;
@@ -61,27 +62,14 @@ header img {
 
 nav {
   background-color: #00171f;
-}
-.navigation {
-  max-width: 80em;
+  max-width: 80rem;
   list-style: none;
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  
 }
-.navigation li:first-child {
-  display: block;
-  text-align: center;
-}
-.navigation li {
-  display: none;
-  text-align: center;
-  height: 50px;
-}
-.contentbox{
-  text-align: center;
-}
-.navigation a {
+nav a {
   display: block;
   font-size: 18px;
   color: #ffff;
@@ -92,8 +80,19 @@ nav {
   border-left: 4px solid #00a7e1;
   border-right: 4px solid #00e183;
 }
-.responsive li {
+
+nav li {
+  display: none;
+  text-align: center;  
+}
+nav li:first-child {
   display: block;
+  text-align: center;
+}
+.contentbox{
+  text-align: center;
+}
+.responsive li {
 }
 nav a:hover {
   background-color: #00a7e1;
