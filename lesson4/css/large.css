@@ -16,7 +16,10 @@
     font-size: 50px;
     max-height: 13px;
   }
-
+  div.acurate {
+    font-size: 23px;
+  
+  }
   .navigation a {
     font-size: 20px;
   }
