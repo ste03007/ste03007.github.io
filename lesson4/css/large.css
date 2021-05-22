@@ -1,11 +1,11 @@
 @media only screen and (min-width: 60em) {
   header img {
     width: 90px;
-    height: 90px;
+    height: auto;
   }
 
   h1 {
-    font-size: 60px;    
+    font-size: 50px;    
   }
   .acurate {
     font-size: 20px;
@@ -16,13 +16,7 @@
     font-size: 50px;
     max-height: 13px;
   }
-  h3 {
-    font-size: 35px;
-  }
-  h4 {
-    font-size: 40px;
-    max-height: 13px;
-  }
+
   .navigation a {
     font-size: 20px;
   }

@@ -96,7 +96,7 @@ nav {
   display: block;
 }
 nav a:hover {
-  background-color: #00a7e1;
+  background-color: #00171f;
   color: #ffffff;
 }
 .active {
@@ -109,7 +109,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  color: #ffffff;
+  color: #00171f;
 }
 
 main div {
@@ -132,13 +132,14 @@ footer {
 
 footer p {
   font-size: 14px;
-  color: #ffffff;
+  color: #00171f;
 }
 
 h1 {
   font-size: 15px;
   color: #00171f;
   margin: 0%;
+
 
 }
 
@@ -159,4 +160,5 @@ p {
 }
 div.acurate {
   font-size: 13px;
+
 }
