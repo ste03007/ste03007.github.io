@@ -1,11 +1,15 @@
 @media only screen and (min-width: 60em) {
   header img {
-    width: 250px;
-    height: 190px;
+    width: 90px;
+    height: 90px;
   }
 
   h1 {
-    font-size: 80px;    
+    font-size: 60px;    
+  }
+  .acurate {
+    font-size: 20px;
+    align-content: center;
   }
 
   h2 {
