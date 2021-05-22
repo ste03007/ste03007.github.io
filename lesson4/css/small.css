@@ -51,7 +51,7 @@ header img {
 .box {
   display: flex;
   flex-direction: column;
-  padding: 22px;
+  padding: 22px
 }
 .logo h1 {
   font-size: 18px;
@@ -89,6 +89,8 @@ nav {
   padding-top: 15px;
   padding-bottom: 15px;
   font-family: "Ubuntu";
+  border-left: 4px solid #00a7e1;
+  border-right: 4px solid #00e183;
 }
 .responsive li {
   display: block;
@@ -137,6 +139,7 @@ footer p {
 h1 {
   font-size: 1rem;
   color: #00171f;
+  margin: 0px;
 }
 
 h2 {
