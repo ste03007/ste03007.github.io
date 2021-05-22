@@ -107,7 +107,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  color: #ffffff;
+  color: #00171f;
   background-color: #dbf5ff;
 }
 
@@ -131,7 +131,7 @@ footer {
 
 footer p {
   font-size: 14px;
-  color: #ffffff;
+  color: #00171f;
 }
 
 h1 {
