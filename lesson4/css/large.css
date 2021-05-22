@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em) {
   header img {
     width: 90px;
-    height: 90px;
+    height: auto;
   }
 
   h1 {
