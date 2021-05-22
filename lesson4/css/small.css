@@ -1,7 +1,6 @@
 
 body {
   font-family: "Ubuntu";
-  color: #00171f
 }
 html {
   line-height: 1.15;
@@ -30,10 +29,9 @@ header {
 }
 
 header img {
-  width: 80px;
-  height: 80px;
-  }
-
+  width: 60px;
+  height: auto;
+}
 .headings {
   display: flex;
   flex-direction: column;
@@ -42,7 +40,7 @@ header img {
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  color: #00a7e1;
+  color: #ffffff;
   font-family: "Ubuntu";
 }
 .moto {
@@ -52,7 +50,7 @@ header img {
 .box {
   display: flex;
   flex-direction: column;
-  padding: 22px
+  padding: 22px;
 }
 .logo h1 {
   font-size: 18px;
@@ -62,39 +60,40 @@ header img {
 
 nav {
   background-color: #00171f;
-  max-width: 80rem;
+}
+
+.navigation {
+  max-width: 80em;
   list-style: none;
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  
 }
-nav a {
-  display: block;
-  font-size: 18px;
-  color: #ffff;
-  text-decoration: #00171f;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-family: "Ubuntu";
-  border-left: 4px solid #00a7e1;
-  border-right: 4px solid #00e183;
-}
-
-nav li {
-  display: none;
-  text-align: center;  
-}
-nav li:first-child {
+.navigation li:first-child {
   display: block;
   text-align: center;
 }
+.navigation li {
+  display: none;
+  text-align: center;
+  height: 50px;
+}
+
 .contentbox{
   text-align: center;
 }
+.navigation a {
+  display: block;
+  font-size: 18px;
+  color: #ffff;
+  text-decoration: #00a7e1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Ubuntu";
+}
+
 .responsive li {
   display: block;
-  background: #dbf5ff;
 }
 nav a:hover {
   background-color: #00a7e1;
@@ -110,8 +109,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  color: #00171f;
-  background-color: #dbf5ff;
+  color: #ffffff;
 }
 
 main div {
@@ -129,22 +127,22 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: #00a7e1;
+  color: #ffffff;
 }
 
 footer p {
   font-size: 14px;
-  color: #00171f;
+  color: #ffffff;
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 10px;
   color: #00171f;
-  margin: 0px;
+
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 25px;
   color: #00171f;
   text-align: center;
 }
@@ -157,14 +155,4 @@ h3 {
 p {
   font-size: 10px;
 
-}
-
-html {
-  background-color: #dbf5ff;
-}
-ul li {
-  background: #00171f;
-}
-div.acurate {
-  font-size: .7rem;
 }
