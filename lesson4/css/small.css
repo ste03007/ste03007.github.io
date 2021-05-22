@@ -40,7 +40,7 @@ header img {
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  color: #ffffff;
+  color: ##1D1ABC;
   font-family: "Ubuntu";
 }
 .moto {
@@ -107,6 +107,7 @@ main {
   flex-direction: column;
   padding: 15px;
   color: #ffffff;
+  background-color: #dbf5ff;
 }
 
 main div {
@@ -124,7 +125,7 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #ffffff;
+  color-background: #dbf5ff;
 }
 
 footer p {
@@ -152,6 +153,11 @@ p {
   font-size: 10px;
 
 }
-.acurate {
-display: ; flex;
+
+html {
+  background-color: #dbf5ff;
+}
+header img {
+width: 80px;
+height: 80px;
 }
