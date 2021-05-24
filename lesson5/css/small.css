@@ -157,3 +157,34 @@ p {
 div.acurate {
   font-size: 13px;
 }
+
+
+* {box-sizing: border-box;}
+.container
+{  
+ position: relative;  
+ width: 20%;  
+ max-width: 300px;
+}   
+img
+{
+ display: block;
+ width: 100%;
+ height: auto;
+}
+.overlay
+{  
+ position: absolute;
+ bottom: 0; 
+ background: rgba(0, 0, 0, 0.2);
+ width: 100%;
+ opacity: 0;    
+ transition: .9s ease;
+ font-size: 15px;  
+ padding: 15px;
+}  
+.container .overlay
+{  
+ opacity: 3.5;
+ color:rgb(0, 94, 145);
+}             
