@@ -1,10 +1,7 @@
 body {
   font-family: "Ubuntu";
 }
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-}
+
 footer,
 main {
   max-width: 80em;
@@ -78,9 +75,7 @@ nav {
   height: 50px;
 }
 
-.contentbox {
-  text-align: center;
-}
+
 .navigation a {
   display: block;
   font-size: 18px;
@@ -114,7 +109,7 @@ main {
 main div {
   border: #00171f 1px #00a7e1;
   background-color: #00a7e1;
-  margin: 15px;
+  margin: 45px;
   padding: 15px;
   font-family: "Ubuntu";
 }
@@ -158,33 +153,38 @@ div.acurate {
   font-size: 13px;
 }
 
-
-* {box-sizing: border-box;}
-.container
-{  
- position: relative;  
- width: 20%;  
- max-width: 300px;
-}   
-img
-{
- display: block;
- width: 100%;
- height: auto;
+* {
+  box-sizing: border-box;
 }
-.overlay
-{  
- position: absolute;
- bottom: 0; 
- background: rgba(0, 0, 0, 0.2);
- width: 100%;
- opacity: 0;    
- transition: .9s ease;
- font-size: 15px;  
- padding: 15px;
-}  
-.container .overlay
-{  
- opacity: 3.5;
- color:rgb(0, 94, 145);
-}             
+.container {
+  position: relative;
+  width: 60%;
+  max-width: 640px;
+}
+.container img {
+  height: auto;
+  width: 200%;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: .1rem;
+  border-left: 10px;
+  background: rgba(9, 56, 175, 0.761);
+  opacity: .9;  
+  border: 1px solid #00171f;
+  padding: 1.0rem;
+  margin: 0;
+  max-width: 200px;
+  height: auto;
+  font-size: 15px;
+  text-justify: auto;
+}
+.container .overlay {
+  opacity: 2.5;
+  color: rgb(219, 238, 204);
+}
+.fn {
+  padding: 1px 20px;
+}
