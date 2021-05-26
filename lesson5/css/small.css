@@ -256,6 +256,7 @@ img {
 	margin-top: 10px;
 	padding: 15px;
 	overflow: auto;
+  align-content: center;
 }
 
 #contactArea {
@@ -263,7 +264,7 @@ img {
 	grid-template-columns: 1fr 1fr;	
 	background-color: 00a7e1;
 	padding: 15px;
-	grid-gap: 75px;
+	
 	align-items: center;
   background-color: #00a7e1;
   padding-top: 15px;
@@ -285,6 +286,7 @@ img {
 	margin: 0;
 	padding-bottom: 15px;
   background-color: #00a7e1;
+
 }
 #contactTextArea h3 {
 	grid-column: 1 / 3;	

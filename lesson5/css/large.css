@@ -30,9 +30,19 @@
     float: right;
     background-color:#00a7e1;
   }
+  .contactArea{
+    display: flex;
+    
+    align-content: center;
+  }
   .article{
     padding-bottom: 25px;
     background-color: #00a7e1;
+    align-content: center;
+    
+  }
+  .mtn {
+    float: right;
   }
   .town-info {
     background-color: #00a7e1;

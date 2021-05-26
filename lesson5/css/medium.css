@@ -46,4 +46,13 @@
     width: 45px;
     height:	auto;
 }
+.town-info{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height:auto;
+  align-content: space-between;
+  background-color: #00a7e1;
+}
 }
