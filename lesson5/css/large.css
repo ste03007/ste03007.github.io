@@ -16,6 +16,20 @@
     font-size: 50px;
     max-height: 13px;
   }
+  .overlay {
+    position: absolute;
+    top: .1rem;
+    border-left: 10px;
+    background: rgba(9, 56, 175, 0.761);
+    opacity: .9;  
+    border: 1px solid #00171f;
+    padding: 1.0rem;
+    margin: 0;
+    max-width: 200px;
+    height: auto;
+    font-size: 15px;
+    text-justify: auto;
+
   div.acurate {
     font-size: 23px;
   }

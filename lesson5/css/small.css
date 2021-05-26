@@ -1,7 +1,10 @@
 body {
   font-family: "Ubuntu";
 }
-
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
 footer,
 main {
   max-width: 80em;
@@ -75,7 +78,9 @@ nav {
   height: 50px;
 }
 
-
+.contentbox {
+  text-align: center;
+}
 .navigation a {
   display: block;
   font-size: 18px;
@@ -109,7 +114,7 @@ main {
 main div {
   border: #00171f 1px #00a7e1;
   background-color: #00a7e1;
-  margin: 45px;
+  margin: 15px;
   padding: 15px;
   font-family: "Ubuntu";
 }
@@ -153,21 +158,20 @@ div.acurate {
   font-size: 13px;
 }
 
+
+/*lESSON FIVE CONTAINER AND OVERLAY*/
+
 * {
   box-sizing: border-box;
 }
 .container {
   position: relative;
-  width: 60%;
-  max-width: 640px;
-}
-.container img {
-  height: auto;
-  width: 200%;
-  margin: 0;
+  width: 100%;
+  height:auto;
+  align-content: left;
 }
 
-.overlay {
+.description {
   position: absolute;
   top: .1rem;
   border-left: 10px;
@@ -187,4 +191,8 @@ div.acurate {
 }
 .fn {
   padding: 1px 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
