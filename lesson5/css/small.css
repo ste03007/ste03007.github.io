@@ -177,8 +177,8 @@ div.acurate {
   position: absolute;
   top: .1rem;
   border-left: 10px;
-  background: rgba(103, 199, 197, 0.761);
-  opacity: 1.0;  
+  background: rgba(1, 18, 148, 0.926);
+  opacity: 3.0;  
   border: 1px solid #00171f;
   padding: .3rem;
   margin: 25px;
@@ -186,6 +186,9 @@ div.acurate {
   height: auto;
   font-size: 13px;
   text-justify: auto;
+}
+.overlay {
+  color: #ffffff;
 }
 .container {
   opacity: 4.5;
@@ -205,11 +208,13 @@ div.acurate {
 .flex-col {
   display: grid;
 	flex: 1 1 auto;
-	background-color: #bed;
+	background-color: #00a7e1;
 }
 .flex-col, .column-col, .grid-col {
 	border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
 	border-left: 1px solid #333;
+  border-right: 1px solid #333;
 	text-align: center;
 }
 .flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
@@ -218,11 +223,11 @@ div.acurate {
 	color: white;
 }
 .flex, .column, .grid {
-	border-right: 1px solid #333;
+	
 }
 
 .col-head {
-	display: none;
+	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #333;
 	text-align: center;
@@ -319,4 +324,5 @@ img {
 footer p {
 	font-size: 14px;
   text-align: center;
+  color: #ffffff;
 }
