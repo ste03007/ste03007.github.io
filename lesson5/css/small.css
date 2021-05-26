@@ -80,6 +80,7 @@ nav {
 
 .contentbox {
   text-align: center;
+  font-size: 30px;
 }
 .navigation a {
   display: block;
@@ -148,7 +149,7 @@ h3 {
   align-content: left;
   width:100%;
   font-size: 10px;
-  color: #ffffff;
+  color: #00171f;
 }
 
 p {
