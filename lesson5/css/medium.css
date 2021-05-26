@@ -37,23 +37,13 @@
     flex-flow: row wrap;
   }
   footer p {
-    font-size: 20px;
+    font-size: 30px;
   }
   #mapImg {
     display: block;
   }
   .socialIcon{
-    width: 25px;
+    width: 45px;
     height:	auto;
 }
 }
-#articleArea img {
-    float: right;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    width: 400px;
-}
-
-
-
- 

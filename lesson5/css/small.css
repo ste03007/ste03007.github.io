@@ -258,7 +258,7 @@ img {
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
-	background-color: #f2be54;
+	background-color: 00a7e1;
 	padding: 15px;
 	grid-gap: 75px;
 	align-items: center;
@@ -286,6 +286,10 @@ img {
 	width: 20px;
 	height:	auto;
 }
+.socialIcon{
+	width: 20px;
+	height:	auto;
+}
 
 .town-info{
   display: flex;
@@ -299,14 +303,15 @@ img {
 .section {
   background-color: #00a7e1;
 }
-.footerbottom {
-background-color: #153e5c;
-	color: #ffffff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+#footerbottom {
+  background-color: #153e5c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 footer p {
 	font-size: 14px;
+  text-align: center;
 }
