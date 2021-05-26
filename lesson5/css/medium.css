@@ -39,7 +39,13 @@
   footer p {
     font-size: 20px;
   }
-  
+  #mapImg {
+    display: block;
+  }
+  .socialIcon{
+    width: 25px;
+    height:	auto;
+}
 }
 
 
