@@ -33,5 +33,21 @@
   .article{
     background-color: #00a7e1;
   }
-
+.town-info{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 500px;
+  height: 400px;
+  align-content: space-between;
+  background-color: #00a7e1;
+}
+#contactArea{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  height: 400px;
+  align-content: space-between;
+  background-color: #00a7e1;
+}
 }

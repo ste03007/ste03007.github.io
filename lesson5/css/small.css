@@ -148,12 +148,12 @@ h2 {
 h3 {
   align-content: left;
   width:100%;
-  font-size: 10px;
+  font-size: 20px;
   color: #00171f;
 }
 
 p {
-  font-size: 10px;
+  font-size: 13px;
 }
 div.acurate {
   font-size: 13px;
@@ -192,7 +192,7 @@ div.acurate {
   color: rgb(2, 3, 9);
 }
 .container img {
-  max-width: 105%;
+  max-width: 110%;
   height: auto;
 }
 .flex {
@@ -254,10 +254,11 @@ img {
 	padding: 15px;
 	overflow: auto;
 }
+
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
-	background-color: #00a7e1;
+	background-color: #f2be54;
 	padding: 15px;
 	grid-gap: 75px;
 	align-items: center;
@@ -285,6 +286,7 @@ img {
 	width: 20px;
 	height:	auto;
 }
+
 .town-info{
   display: flex;
   flex-wrap: wrap;
@@ -296,4 +298,15 @@ img {
 }
 .section {
   background-color: #00a7e1;
+}
+.footerbottom {
+background-color: #153e5c;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+footer p {
+	font-size: 14px;
 }

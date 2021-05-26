@@ -47,6 +47,13 @@
     height:	auto;
 }
 }
+#articleArea img {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+
 
 
  
