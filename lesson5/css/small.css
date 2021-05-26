@@ -303,8 +303,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  height:auto;
   align-content: space-between;
   background-color: #00a7e1;
 }
@@ -332,4 +332,11 @@ footer p {
 }
 #prestonPancakes p {
 	margin: 0;
+}
+.mtn {
+  background-color: #7f675b;
+  text-align: center;
+  width: 100%;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
