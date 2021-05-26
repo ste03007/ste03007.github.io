@@ -108,13 +108,11 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  color: #00171f;
+ 
 }
 
 main div {
-  border: #00171f 1px #00a7e1;
-  background-color: #00a7e1;
-  margin: 15px;
+  border:  1px #00a7e1;
   padding: 15px;
   font-family: "Ubuntu";
 }
@@ -147,7 +145,9 @@ h2 {
 }
 
 h3 {
-  font-size: 14px;
+  align-content: left;
+  width:100%;
+  font-size: 10px;
   color: #ffffff;
 }
 
@@ -172,27 +172,76 @@ div.acurate {
 }
 
 .description {
+  list-style: none;
   position: absolute;
   top: .1rem;
   border-left: 10px;
-  background: rgba(9, 56, 175, 0.761);
-  opacity: .9;  
+  background: rgba(103, 199, 197, 0.761);
+  opacity: 1.0;  
   border: 1px solid #00171f;
-  padding: 1.0rem;
-  margin: 0;
+  padding: .3rem;
+  margin: 25px;
   max-width: 200px;
   height: auto;
-  font-size: 15px;
+  font-size: 13px;
   text-justify: auto;
 }
-.container .overlay {
-  opacity: 2.5;
-  color: rgb(219, 238, 204);
+.container {
+  opacity: 4.5;
+  color: rgb(2, 3, 9);
 }
-.fn {
-  padding: 1px 20px;
-}
-img {
-  max-width: 100%;
+.container img {
+  max-width: 105%;
   height: auto;
+}
+.flex {
+	display: flex;
+	/* flex-direction: row; */
+	/* let us combine row and wrap with flow */
+	flex-flow: row wrap;
+}
+
+.flex-col {
+  display: grid;
+	flex: 1 1 auto;
+	background-color: #bed;
+}
+.flex-col, .column-col, .grid-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+.flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
+	opacity: 0.75;
+	background-color: black;
+	color: white;
+}
+.flex, .column, .grid {
+	border-right: 1px solid #333;
+}
+
+.col-head {
+	display: none;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+
+img {
+	border-radius: 10px;
+	padding: 0.25rem;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.col-head,th {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
 }
