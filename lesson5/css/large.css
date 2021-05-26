@@ -31,5 +31,10 @@
     background-color:#00a7e1;
   }
   .article{
+    padding-bottom: 25px;
     background-color: #00a7e1;
   }
+  .town-info {
+    background-color: #00a7e1;
+  }
+}

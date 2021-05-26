@@ -262,6 +262,9 @@ img {
 	padding: 15px;
 	grid-gap: 75px;
 	align-items: center;
+  background-color: #00a7e1;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 #mapImg {
 	display: none;
@@ -273,10 +276,12 @@ img {
 #contactTextArea {
 	display: flex;
 	flex-direction: column;
+  background-color: #00a7e1;
 }
 #contactTextArea p {
 	margin: 0;
 	padding-bottom: 15px;
+  background-color: #00a7e1;
 }
 #contactTextArea h3 {
 	grid-column: 1 / 3;	
