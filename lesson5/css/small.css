@@ -222,9 +222,7 @@ div.acurate {
 	background-color: black;
 	color: white;
 }
-.flex, .column, .grid {
-	
-}
+
 
 .col-head {
 	display: block;
@@ -325,4 +323,13 @@ footer p {
 	font-size: 14px;
   text-align: center;
   color: #ffffff;
+}
+#prestonPancakes {
+	display: none;
+	background: #f2be54;
+	padding: 15px;
+	text-align: center;
+}
+#prestonPancakes p {
+	margin: 0;
 }

@@ -50,3 +50,6 @@ const options = {
   year: "numeric",
 };
 document.getElementById("currentDate").textContent = currentDate;
+if (thedate.getDay() == 3) {
+    document.querySelector("prestonPancakes").style.display = 'block';
+}
