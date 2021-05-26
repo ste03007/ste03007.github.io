@@ -1,38 +1,36 @@
 @media only screen and (min-width: 60em) {
   header img {
-    width: 90px;
-    height: auto;
+    width: 250px;
+    height: 190px;
   }
 
   h1 {
-    font-size: 50px;
-  }
-  .acurate {
-    font-size: 20px;
-    align-content: center;
+    font-size: 80px;    
   }
 
   h2 {
     font-size: 50px;
     max-height: 13px;
   }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 40px;
+    max-height: 13px;
+  }
   .navigation a {
     font-size: 20px;
   }
-}
-
-.overlay {
-  position: absolute;
-  top: .1rem;
-  border-left: 120px; 
-  opacity: .9;  
-  padding: 1.0rem;
-  margin: 0;
-  max-width: 200px;
-  height: auto;
-  font-size: 15px;
-  text-justify: auto; 
-}
-.description {
-  width: 650%;
+  .prestonm img {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    width: auto;
+    float: right;
+    background-color:#00a7e1;
+  }
+  .article{
+    background-color: #00a7e1;
+  }
 }
