@@ -154,7 +154,7 @@ p {
   font-size: 13px;
 }
 div.acurate {
-  font-size: 13px;
+  font-size: 33px;
 }
 
 
@@ -295,7 +295,7 @@ img {
   width: 100%;
   height:auto;
   align-content: space-between;
-  background-color: #00a7e1;
+  
 }
 .section {
   background-color: #00a7e1;
@@ -337,4 +337,7 @@ footer p {
   height: auto;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+}
+.colors{
+  background-color: #00a7e1;
 }
