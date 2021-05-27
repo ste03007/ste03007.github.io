@@ -79,6 +79,7 @@ nav {
 .contentbox {
   text-align: center;
   font-size: 30px;
+  padding-top: 45px;
 }
 .navigation a {
   display: block;
@@ -332,12 +333,11 @@ footer p {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
-.mapImg{
-  display: flex;
+.map2{
   background-color: #00a7e1;
   text-align: center;
   width: 100%;
-  height: auto;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+  height:auto;
+  grid-column: 2 / 2;
+  grid-row: 1 / 3;
 }

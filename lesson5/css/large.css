@@ -41,6 +41,9 @@
     align-content: center;
     
   }
+  .map2 {
+    float:left;
+  }
   .mtn {
     float: right;
   }
