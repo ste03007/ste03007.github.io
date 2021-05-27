@@ -54,6 +54,7 @@
   height:auto;
   align-content: space-between;
 }
+
 .flex-col {
   display: grid;
 	flex: 1 1 auto;
