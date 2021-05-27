@@ -11,9 +11,11 @@
   h2 {
     font-size: 50px;
     max-height: 13px;
+    display: block;
   }
   h3 {
-    font-size: 35px;    
+    font-size: 35px;
+    padding: 10px;    
   }
   h4 {
     font-size: 40px;
@@ -28,7 +30,9 @@
     margin: 0px;
     width: auto;
     float: right;
-    background-color:#00a7e1;
+    
+    border-width: medium;
+    border-image: round;
   }
   .contactArea{
     display: flex;    
@@ -38,11 +42,11 @@
   .article{
     padding-bottom: 25px;
     background-color: #00a7e1;
-    align-content: center;
-    
+    align-content: center;    
   }
-  .map2 {
-    float:left;
+  .socialIcon{
+    width: 85px;
+    height:	auto;
   }
   .mtn {
     float: right;
