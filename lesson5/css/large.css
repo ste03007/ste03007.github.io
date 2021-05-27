@@ -13,14 +13,14 @@
     max-height: 13px;
   }
   h3 {
-    font-size: 35px;
+    font-size: 35px;    
   }
   h4 {
     font-size: 40px;
     max-height: 13px;
   }
   .navigation a {
-    font-size: 20px;
+    font-size: 25px;
   }
   .prestonm img {
     display: block;
@@ -33,6 +33,7 @@
   .contactArea{
     display: flex;    
     align-content: center;
+    ;
   }
   .article{
     padding-bottom: 25px;
@@ -45,8 +46,6 @@
   }
   .mtn {
     float: right;
-  }
-  .town-info {
-    background-color: #00a7e1;
+  
   }
 }
