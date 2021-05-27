@@ -251,7 +251,7 @@ img {
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;	
-	background-color: 00a7e1;
+	background-color: #00a7e1;
 	padding: 15px;	
 	align-items: center;  
   padding-top: 15px;
