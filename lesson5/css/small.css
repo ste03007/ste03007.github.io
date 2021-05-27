@@ -145,7 +145,6 @@ h2 {
 }
 
 h3 {
-  align-content: left;
   width:100%;
   font-size: 20px;
   color: #00171f;
@@ -167,8 +166,7 @@ div.acurate {
 .container {
   position: relative;
   width: 100%;
-  height:auto;
-  align-content: left;
+  height:auto; 
 }
 
 .description {
@@ -254,10 +252,8 @@ img {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;	
 	background-color: 00a7e1;
-	padding: 15px;
-	
-	align-items: center;
-  background-color: #00a7e1;
+	padding: 15px;	
+	align-items: center;  
   padding-top: 15px;
   padding-bottom: 15px;
 }
