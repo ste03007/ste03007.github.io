@@ -51,7 +51,8 @@ const options = {
 };
 
 document.getElementById("currentDate").textContent = currentDate;
-
+function thedate(){
 if (thedate.getDay() == 5) {
     document.querySelector("prestonPancakes").style.display = 'block';
+}
 }
