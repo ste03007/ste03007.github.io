@@ -333,4 +333,7 @@ body {
   .colors{
     background-color: #00a7e1;
   }
-  
+  .hero3 source{
+    width: 100%;
+    height: auto;
+  }

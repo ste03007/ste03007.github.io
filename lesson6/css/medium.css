@@ -60,4 +60,8 @@
       flex: 1 1 auto;
       background-color: #00a7e1;
   }
-  }
+}
+.hero2 img{
+  width: 100%;
+  height:auto;
+}

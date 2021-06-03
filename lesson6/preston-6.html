@@ -46,10 +46,12 @@
     <main>
       <h2>Preston Idaho</h2>
       <div class="container">
-        <source media="(max-width: 500px)"srcset="images/wdd230_image_franklinOriginalLarge.jpeg"  alt="Hero" />
-        <source media="(max-width: 800px)"srcset="images/wdd230_image_franklinOriginalmedium.jpeg" alt="Hero" />
-        <source media="(max-width: 1300px)"srcset="images/wdd230_image_franklinOriginalsmall.jpeg"  alt="Hero" />
-        <img src="images/wdd230_image_franklinOriginalLarge.jpg" class= "down" alt="Hero" />
+        <picture>
+        <source media="(min-width: 880px)"srcset="images/wdd230_image_franklinOriginalLarge3.jpg" />
+        <source media="(min-width: 420px)"srcset="images/wdd230_image_franklinOriginalmedium.jpg"  />
+        <source media="(min-width: 270px)"srcset="images/wdd230_image_franklinOriginalsmall.jpg"   />
+        <img src="images/wdd230_image_franklinOriginalLarge3.jpg" style="width:auto;"/>
+        </picture>
         <div class="overlay">
           <ul class="description">
             <li>
