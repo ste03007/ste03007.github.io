@@ -52,4 +52,8 @@
       float: right;
     
     }
+    .hero1 source{
+      width: 100%;
+      height: auto;
+    }
   }
