@@ -337,3 +337,6 @@ body {
     width: 100%;
     height: auto;
   }
+  li {
+    display: list-item;
+  }
