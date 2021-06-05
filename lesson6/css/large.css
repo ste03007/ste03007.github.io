@@ -3,7 +3,9 @@
       width: 160px;
       height: auto;
     }
-  
+    main{
+   max-width: 800px;
+    }
     h1 {
       font-size: 80px;    
     }
@@ -41,7 +43,6 @@
     .contactArea{
       display: flex;    
       align-content: center;
-      ;
     }
     .article{
       padding-bottom: 25px;
@@ -54,7 +55,9 @@
     }
     .mtn {
       float: right;
-    
+    }
+    .flex img{
+     width: 74px;
     }
     .hero1 source{
       width: 100%;
