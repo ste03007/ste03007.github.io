@@ -55,15 +55,3 @@ document.getElementById("currentDate").textContent = currentDate;
 if (todaysdate.getDay() == 5) {
   document.querySelector("#prestonPancakes").style.display = "block";
 }
-
-
-let tempF = 51; // in the future this will be replaced with data from a third party - openweathermap
-let windSpeed = 5; // will be replaced as well
-let wchill = "N/A";
-
-if (tempF < 50 && windSpeed > 3) {
-  wchill = windChill(tempF, windSpeed)
-  wchill = wchill.toFixed(1) + "&#176;F";
-}
-
-document.querySelector("#windchill").innerHTML = wchill;
