@@ -58,6 +58,7 @@
     }
     .flex img{
      width: 74px;
+     height: auto;
     }
     .hero1 source{
       width: 100%;
