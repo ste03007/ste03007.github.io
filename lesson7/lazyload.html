@@ -3,18 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lazy Load</title>
         <link rel="stylesheet" href="css/imagehandling.css" />
+
     </head>
-    <body cz-shortcut-listen="true">
+    <body>
         <main>
             <div id="box">
             <div class="vertical">       
             <h1>Progressive Loading (Images)</h1>
-            <picture><img src="images/placeholder.png" data-src="images/Wallpapers" alt=""></picture>
-            <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-            <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-            <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-            <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
+            <picture><img src="images/placeholder.png" data-src="http://placekitten.com/200/300" alt="1"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/Wallpapers.jpg" alt="2"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/Wallpapers.jpg" alt="3"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/Wallpapers.jpg" alt="4"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/Wallpapers.jpg" alt="5"></picture>
         </div>
     </div>    
         </main>
