@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clinten Stewart" />
+    <title>WDD 230 Week 7</title>
+    <link
+      rel="normalize"
+      href="https://sdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="googleapis"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/imagehandling.css" />
+  </head>
+  <body>
+    <main>
+      <div id="box">
+        <div class="vertical">
+          <h1>Progressive Loading (Images)</h1>
+          <picture
+            ><img
+              src="images/placeholder3.png"
+              data-src="https://placekitten/200/300"
+              alt="kitten"
+          /></picture>
+          <picture
+            ><img
+              src="images/placeholder.png"
+              data-src="images/lazyload.png"
+              alt="2"
+          /></picture>
+          <picture
+            ><img
+              src="images/placeholder.png"
+              data-src="images/Wallpapers.jpg"
+              alt="3"
+          /></picture>
+          <picture
+            ><img
+              src="images/placeholder.png"
+              data-src="images/Wallpapers.jpg"
+              alt="4"
+          /></picture>
+          <picture
+            ><img
+              src="images/placeholder.png"
+              data-src="images/Wallpapers.jpg"
+              alt="5"
+          /></picture>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footerbottom">
+        <p>&copy; Clinten Stewart, <span id="currentDate"></span> <br /></p>
+      </div>
+    </footer>    
+    <script src="js/imagehandling.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Ubuntu"] } });
+    </script>
+  </body>
+</html>
