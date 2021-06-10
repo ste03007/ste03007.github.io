@@ -101,7 +101,7 @@ body {
   }
   
   main div {
-    padding: 15px;
+    padding: 10px;
     
   }
   
@@ -127,7 +127,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    color: #ffffff;
+    color: #00171f;
   }   
   p {
     font-size: 13px;
