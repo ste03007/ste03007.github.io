@@ -121,7 +121,6 @@ p {
     border: 0;
     width: 100%;
     height: auto;
-    padding-inline: 2px;
 }
 div.acurate {
   font-size: 13px;
@@ -269,5 +268,4 @@ img {
     border: 0;
     width: 100%;
     height: auto;
-    padding-inline: 2px;
   }

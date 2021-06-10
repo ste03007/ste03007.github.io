@@ -66,12 +66,12 @@
     height: auto;
   }
   div img {
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 10px 10px 10px grey;
     width: 100%;
   }
   div p {
-    box-shadow: 5px 5px 5px grey;
-    width: 300px;
+    box-shadow: 10px 10px 10px grey;
+    width: 336px;
   }
   footer {
     background-color: #00a7e1;
@@ -88,7 +88,9 @@
     font-size: 14px;
     color: #00171f;
   }
-
+  p {
+    width: 360px;
+  }
   #grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
