@@ -1,67 +1,65 @@
 @media only screen and (min-width: 40em) {
-    h1 {
-      font-size: 30px;
-    }
-    h2 {
-      font-size: 25px;
-    }
-    h3 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 16px;
-    }
-    header img {
-      width: 108px;
-    }
-    .headings h1 {
-      font-size: 40px;
-    }
-    .moto {
-      font-size: 22px;
-    }
-    .navigation {
-      display: flex;
-    }
-    .navigation li {
-      flex: 1 1 auto;
-      display: block;
-    }
-    .navigation li:first-child {
-      display: none;
-    }
-    .navigation a {
-      font-size: 18px;
-    }
-    nav ul {
-      flex-flow: row wrap;
-    }
-    footer p {
-      font-size: 30px;
-    }
-    #mapImg {
-      display: block;
-    }
-    .socialIcon{
-      width: 45px;
-      height:	auto;
+  h1 {
+    font-size: 30px;
   }
-  .town-info{
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  header img {
+    width: 108px;
+  }
+  .headings h1 {
+    font-size: 40px;
+  }
+  .moto {
+    font-size: 22px;
+  }
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    flex: 1 1 auto;
+    display: block;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation a {
+    font-size: 18px;
+  }
+  nav ul {
+    flex-flow: row wrap;
+  }
+  footer p {
+    font-size: 30px;
+  }
+  #mapImg {
+    display: block;
+  }
+  .socialIcon {
+    width: 45px;
+    height: auto;
+  }
+  .town-info {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    height:auto;
+    height: auto;
     align-content: space-between;
   }
-  
+
   .flex-col {
     display: grid;
-      flex: 1 1 auto;
-      background-color: #00a7e1;
+    flex: 1 1 auto;
+    background-color: #00a7e1;
   }
 }
-.hero2 img{
+.hero2 img {
   width: 100%;
-  height:auto;
+  height: auto;
 }
