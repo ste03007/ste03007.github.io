@@ -7,18 +7,18 @@
    max-width: 800px;
     }
     h1 {
-      font-size: 80px;    
+      font-size: 80px;
     }
-  
     h2 {
       font-size: 45px;
       max-height: 13px;
       display: block;
       padding: 25px;
     }
+
     h3 {
       font-size: 35px;
-      padding: 10px;    
+      padding: 10px;
     }
     h4 {
       font-size: 40px;
@@ -33,7 +33,6 @@
       margin: 0px;
       width: auto;
       float: right;
-      
       border-width: medium;
       border-image: round;
     }
@@ -41,13 +40,13 @@
       font-size: 50px;
     }
     .contactArea{
-      display: flex;    
+      display: flex;
       align-content: center;
     }
     .article{
       padding-bottom: 25px;
       background-color: #00a7e1;
-      align-content: center;    
+      align-content: center;
     }
     .socialIcon{
       width: 85px;

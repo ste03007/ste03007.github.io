@@ -273,7 +273,6 @@ footer p {
 }
 /*gallery*/
 #grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  flex: 1 auto;
 }
