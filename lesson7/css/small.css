@@ -98,7 +98,7 @@ body {
     background-color: #00171f;
     color: #ffffff;
   }
-  .active {
+  .active1 {
     background-color: #00171f;
     border-left: 4px solid #00a7e1;
     border-right: 4px solid #00a7e1;
@@ -341,4 +341,9 @@ body {
     width: 100%;
     height: auto;
   }
-  
+  #grid { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    }
