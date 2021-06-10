@@ -7,10 +7,12 @@ body {
     max-width: 80em;
     margin: 0 auto;
   }
-  header,
-  nav {
-    margin: 0 auto;
-    
+  header {
+    margin: 0 auto;    
+    background-color: #00a7e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   header {
@@ -19,22 +21,12 @@ body {
     align-items: center;
     justify-content: center;
    
-  }
-  
+  }  
   header img {
     width: 60px;
     height: auto;
-  }
-  .headings {
     display: flex;
     flex-direction: column;
-  }
-  .headings h1 {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    color: #ffffff;
-    
   }
   .moto {
     color: #00171f;
@@ -53,12 +45,11 @@ body {
   
   li {
     display: list-item;
-  }
-  
+  }  
   nav {
     background-color: #00171f;
-  }
-  
+    margin: 0;
+  }  
   .navigation {
     max-width: 80em;
     list-style: none;
@@ -133,22 +124,11 @@ body {
     font-size: 15px;
     color: #00171f;
     margin: 0%;
-  }
-  
-  h2 {
-    display: block;
-    font-size: 25px;
-    color: #00171f;
-    text-align: center;
-  }
-  
-  h3 {
-    display: none;
-    width: 100%;
-    font-size: 20px;
-    color: #00171f;
-  }
-  
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #ffffff;
+  }   
   p {
     font-size: 13px;
   }
@@ -255,50 +235,6 @@ body {
     padding-bottom: 15px;
   }
   
-  #mapImg {
-    display: block;
-    height: auto;
-    justify-self: end;
-    width: 100%;
-    max-width: 488px;
-  }
-  
-  #contactTextArea {
-    display: flex;
-    flex-direction: column;
-    background-color: #00a7e1;
-  }
-  
-  #contactTextArea p {
-    margin: 0;
-    padding: 10px;
-    padding-bottom: 15px;
-    background-color: #00a7e1;
-  }
-  
-  #contactTextArea h3 {
-    grid-column: 1 / 3;
-    margin-top: 0;
-  }
-  .socialIcon {
-    width: 35px;
-    height: auto;
-  }
-  
-  .town-info {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    align-content: space-between;
-    background-color: #00a7e1;
-  }
-  
-  .section {
-    background-color: #00a7e1;
-  }
-  
   #footerbottom {
     background-color: #153e5c;
     color: #ffffff;
@@ -342,9 +278,7 @@ body {
     height: auto;
   }
   #grid { 
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: column;
-    grid-gap: 2vw;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
     }
