@@ -104,7 +104,7 @@ footer {
   text-align: center;
   color: #ffffff;
   padding-bottom: 15px;
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 footer p {
@@ -127,6 +127,11 @@ h2 {
 p {
   font-size: 23px;
   font-family: "Ubuntu";
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-left: 4px solid #00171f;
+  border-right: 4px solid #00171f;
+  text-align: center;
 }
 div.acurate {
   font-size: 13px;
