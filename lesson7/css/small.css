@@ -91,22 +91,6 @@ main {
   flex-direction: column;
 }
 
-main div {
-  padding: 10px;
-}
-
-footer {
-  background-color: #00a7e1;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #ffffff;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-
 footer p {
   font-size: 14px;
   color: #00171f;
@@ -272,8 +256,5 @@ footer p {
 }
 /*gallery*/
 #grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
   align-items: stretch;
 }
