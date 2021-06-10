@@ -55,6 +55,8 @@ document.getElementById("currentDate").textContent = currentDate;
 if (todaysdate.getDay() == 5) {
   document.querySelector("#prestonPancakes").style.display = "block";
 }
+
+//*image javascript*//
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
@@ -70,16 +72,16 @@ const loadImages = (image) => {
 };
 
 if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver((items, observer) => {
+  const imgObserver = new IntersectionObserver((items, imgObserver) => {
     items.forEach((item) => {
       if (item.isIntersecting) {
         loadImages(item.target);
-        observer.unobserve(item.target);
+        imgObserver.unobserve(item.target);
       }
     });
   });
   imagesToLoad.forEach((img) => {
-    observer.observe(img);
+    imgObserver.observe(img);
   });
 } else {
   imagesToLoad.forEach((img) => {
