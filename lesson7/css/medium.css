@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 400px) {
   h1 {
     font-size: 30px;
   }
@@ -60,6 +60,12 @@
   }
 }
 .hero2 img {
+  width: 100%;
+  height: auto;
+}
+img {
+  display: block;
+  border: 0;
   width: 100%;
   height: auto;
 }

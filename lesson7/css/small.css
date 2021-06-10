@@ -1,3 +1,4 @@
+
 body {
   font-family: "Ubuntu";
 }
@@ -111,11 +112,16 @@ h2 {
 p {
   font-size: 23px;
   font-family: "Ubuntu";
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   border-left: 4px solid #00171f;
   border-right: 4px solid #00171f;
   text-align: center;
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    padding-inline: 2px;
 }
 div.acurate {
   font-size: 13px;
@@ -220,6 +226,9 @@ td:hover,
   justify-content: center;
   text-align: center;
 }
+footer {
+  max-width: 100%;
+}
 
 footer p {
   font-size: 14px;
@@ -255,6 +264,10 @@ footer p {
   height: auto;
 }
 /*gallery*/
-#grid {
-  align-items: stretch;
-}
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    padding-inline: 2px;
+  }
