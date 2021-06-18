@@ -1,5 +1,5 @@
 body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu";
     text-align: center;
   }
   tr:nth-child(odd) {
@@ -36,7 +36,4 @@ body {
   }
   tfoot tr td {
     font-size: 10px;
-  }
-  .italics {
-    font-style: italic;
   }
