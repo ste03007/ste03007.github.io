@@ -1,6 +1,6 @@
 header,
 main,
-footer,{
+footer{
     max-width: 820px;
     margin: 0 auto;
 }
@@ -17,12 +17,12 @@ main section {
 }
 
 footer {
-    border-top:
+    border-top: 1px solid #555;
 }
 
 .cards {
     display: flex;
-    g
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .utah {
