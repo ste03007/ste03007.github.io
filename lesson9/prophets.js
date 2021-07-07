@@ -5,13 +5,15 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    
+
   const prophets = jsonObject['prophets'];
   for (let i = 0; i < prophets.length; i++ ) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
 
     h2.innerHTML = `${prophets[i].name}<span class="purple">${prophets[i].lastname}</span>`;
+    image.setAttribute('src', prophets[i].imageurl);
+    image.setAttribute('alt',`The offical portrait of  ${prophets[i].name} ${prophets[i].lastname}!`);
 
     card.appendChild(h2);
 
