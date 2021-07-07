@@ -1,0 +1,26 @@
+div {
+    display: block;
+}
+#container {
+    margin: 0px auto;
+    text-align: left;
+    width: 760px;
+    border: 1px solid rgb(3, 55, 92);
+    background-color: rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(236, 220, 186);
+    background-image: url("");
+    font: 14.5px Verdana, Tahoma, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+}
+#container {
+    margin: 0px auto;
+    text-align: left;
+    width: 760px;
+    border: 1px solid rgb(3, 55, 92);
+    background-color: rgb(255, 255, 255);
+}

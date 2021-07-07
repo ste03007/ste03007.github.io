@@ -43,10 +43,11 @@
         <li><a href="#">Storm Center</a></li>
         <li><a href="#">Gallery</a></li>
       </ul>
-    </nav>
+    </nav><input type="text" name="name" value="" id="name" placeholder="First Name" data-source="leadpages-full_name" data-role="full_name" required="required">
+    <span class="error-container" id="leadpages-error-name">You must fill out this field in order to proceed</span>
     <h2>Storm Report Information</h2>
     <form onsubmit="return false"></form>
-    <input type="text" placeholder="Enter your first name" id="firstName" />
+    <input type="text" name="name" placeholder="Enter your first name" id="firstName" data-role="full_name" required="required" />
     <br /><br />
     <input type="text" placeholder="Enter your last name" id="lastName" />
     <br /><br />
@@ -67,18 +68,11 @@
       <option value="T">&#x1F32A;Tornado</option>
     </select>
     <br /><br />
-    <select id="country1">
-      <option disabled selected value>-- storm severity --</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
+      <form action="/action_page.php">
+        <label for="vol">Storm Severity between 1 and 10</label>
+        <input type="range" id="vol" name="vol" min="0" max="10">
+        <input type="submit">
+      </form>
     </select>
     <br /><br />
     <select id="country2">
@@ -95,7 +89,13 @@
     <br />
     <textarea id="comments" rows="4"></textarea>
     <br /><br />
+    <div class="controls">
+      <button id="leadpages-submit-button" type="submit">
 
+
+<div style="text-align: center">Click here to join! &nbsp;&nbsp; »</div>
+      </button>
+  </div>
     <button onclick="sendContact();">form submission button</button>
     <footer>
       <div id="footerbottom">

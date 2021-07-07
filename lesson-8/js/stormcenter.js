@@ -89,6 +89,69 @@ if ("IntersectionObserver" in window) {
   });
 }
 
+
+
+
+function fieldValidation(field, validationFunction) {
+  if (field == null) return false;
+
+  let isFieldValid = validationFunction(field.value)
+  if (!isFieldValid) {
+  field.className = 'placeholderRed';
+  } else {
+  field.className = '';
+  }
+  return isFieldValid;
+ }
+ function isValid() {
+  var valid = true;
+  valid &= fieldValidation(fields.firstName, isNotEmpty);
+  valid &= fieldValidation(fields.lastName, isNotEmpty);
+  valid &= fieldValidation(fields.answer, isNotEmpty);
+  valid &= fieldValidation(fields.zip,  isNumber,isNotEmpty);
+  valid &= fieldValidation(fields.email, isEmail);
+  valid &= fieldValidation(fields.answer, isNotEmpty);
+  return valid;
+ }
+ class User {
+  constructor(firstName, lastName, answer, zip, country, email, question) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.answer = answer;
+  this.zip = zip;
+  this.country = country;
+  this.email = email
+  this.question = question;
+  }
+ }
+ class User {
+  constructor(firstName, lastName, gender, address, country, email, newsletter, question) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.gender = gender;
+  this.address = address;
+  this.country = country;
+  this.email = email;
+  this.newsletter = newsletter;
+  this.question = question;
+  }
+ }
+ function isEmail(email) {
+  let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+  return regex.test(String(email).toLowerCase());
+ }
+function sendContact() {
+  fields.answer= getAnswer();
+
+  if (isValid()) {
+  let usr = new User(firstName.value, lastName.value, fields.any.value, zip.value, email.value);
+
+  alert(`${usr.firstName}Thankyou for the Storm Information.`)
+
+  } else {
+  alert("ERROR")
+  }
+}
 let answer = yes.checked ? "yes" : "no"
 function getAnswer() {
     return document.querySelector('input[name="answer"]:checked')
@@ -117,32 +180,3 @@ function getAnswer() {
     this.comments = comments;
     }
    }
-function isValid() {
- var valid = true;
-
- valid &= fieldValidation(fields.firstName, isNotEmpty);
- valid &= fieldValidation(fields.lastName, isNotEmpty);
- valid &= fieldValidation(fields.answer, isNotEmpty);
- valid &= fieldValidation(fields.zip,  isNumber,isNotEmpty);
- valid &= fieldValidation(fields.email, isEmail);
- valid &= fieldValidation(fields.answer, isNotEmpty);
-
- return valid;
-}
-
-function isEmail(email) {
-    let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-    return regex.test(String(email).toLowerCase());
-   }
-function sendContact() {
-    fields.answer= getAnswer();
-
-    if (isValid()) {
-    let usr = new User(firstName.value, lastName.value, fields.answer.value, zip.value, email.value);
-
-    alert(`${usr.firstName}Thankyou for the Storm Information.`)
-
-    } else {
-    alert("ERROR")
-    }
-}
