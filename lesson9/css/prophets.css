@@ -16,7 +16,7 @@ body {
 
 .cards {
   display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
