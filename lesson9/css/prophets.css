@@ -14,9 +14,9 @@ body {
   height: 4rem;
 }
 
-.cards {
-  display:flex;
-  flex-flow: column;
+.cards {{
+  display: flex;
+	flex-direction: row;
   max-width: 1200px;
   margin: 0 auto;
 }
