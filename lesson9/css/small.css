@@ -224,4 +224,7 @@ footer p {
   height: auto;
 }
 /*gallery*/
-
+.section {
+    display:flex;
+    flex-shrink: inherit;
+}

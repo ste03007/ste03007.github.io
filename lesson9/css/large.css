@@ -1,21 +1,19 @@
+ul{ margin-bottom:0px;
+    overflow:hidden;
+    border-top:1px solid #ccc;
+  }
+  li{
+    line-height:1.5em;
+    border-bottom:1px solid #ccc;
+    float:left;
+    display:inline;
+  }
+ h2 {text-align:center;}
 
-
-
-.container {
-	display: flex;
-	flex-direction: column;
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    max-width: 1335px;
+    margin: 0 auto;
 }
-* {
-    box-sizing: border-box;
-  }
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
