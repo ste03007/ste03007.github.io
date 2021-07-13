@@ -1,26 +1,232 @@
-div {
-    display: block;
-}
-#container {
-    margin: 0px auto;
-    text-align: left;
-    width: 760px;
-    border: 1px solid rgb(3, 55, 92);
-    background-color: rgb(255, 255, 255);
-}
 body {
-    background-color: rgb(236, 220, 186);
-    background-image: url("");
-    font: 14.5px Verdana, Tahoma, Helvetica, sans-serif;
-    text-align: center;
-    width: 100%;
-    margin: 0px;
-    color: rgb(0, 0, 0);
+  font-family: "Ubuntu";
 }
-#container {
-    margin: 0px auto;
-    text-align: left;
-    width: 760px;
-    border: 1px solid rgb(3, 55, 92);
-    background-color: rgb(255, 255, 255);
+
+footer,
+main {
+  max-width: 80em;
+  margin: 0 auto;
+}
+header {
+  margin: 0 auto;
+  background-color: #00a7e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  width: 60px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.moto {
+  color: #00171f;
+  font-size: 10px;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+.logo h1 {
+  font-size: 18px;
+  color: #ffffff;
+  margin: auto;
+}
+
+li {
+  display: list-item;
+}
+nav {
+  background-color: #00171f;
+  margin: 0;
+}
+.navigation {
+  max-width: 80em;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.navigation li:first-child {
+  display: block;
+  text-align: center;
+}
+.navigation li {
+  display: none;
+  text-align: center;
+  height: 50px;
+}
+
+.contentbox {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 45px;
+}
+.navigation a {
+  display: block;
+  font-size: 18px;
+  color: #ffff;
+  text-decoration: #00a7e1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.responsive li {
+  display: block;
+}
+nav a:hover {
+  background-color: #00171f;
+  color: #ffffff;
+}
+.active1 {
+  background-color: #00171f;
+  border-left: 4px solid #00a7e1;
+  border-right: 4px solid #00a7e1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  font-size: 14px;
+  color: #00171f;
+}
+
+h1 {
+  font-size: 15px;
+  color: #00171f;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #00171f;
+}
+h2 {
+  font-size: 15px;
+}
+p {
+  font-size: 23px;
+  font-family: "Ubuntu";
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-left: 4px solid #00171f;
+  border-right: 4px solid #00171f;
+  text-align: center;
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+div.acurate {
+  font-size: 13px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.description {
+  list-style: none;
+  position: absolute;
+  top: 0.1rem;
+  border-left: 10px;
+  background: rgba(1, 48, 148, 0.926);
+  opacity: 3;
+  border: 1px solid #00171f;
+  padding: 0.3rem;
+  margin: 25px;
+  max-width: 190px;
+  height: auto;
+  font-size: 10px;
+  text-justify: auto;
+}
+.overlay {
+  color: #ffffff;
+}
+
+
+
+.data {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#article {
+  border: 2px solid #000000;
+  background: #00a7e1;
+  margin-top: 10px;
+  padding: 15px;
+  overflow: auto;
+  align-content: center;
+}
+
+#contactArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #00a7e1;
+  padding: 15px;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#footerbottom {
+  background-color: #153e5c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer {
+  max-width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#prestonPancakes {
+  display: none;
+  background: #00a7e1;
+  padding: 15px;
+  text-align: center;
+}
+
+#prestonPancakes p {
+  margin: 0;
+}
+.mtn {
+  background-color: #00a7e1;
+  text-align: center;
+  width: 100%;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.map2 {
+  width: 50%;
+}
+.colors {
+  background-color: #00a7e1;
+}
+.hero3 source {
+  width: 100%;
+  height: auto;
+}
+/*gallery*/
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
 }
