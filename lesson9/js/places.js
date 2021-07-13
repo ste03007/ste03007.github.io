@@ -22,21 +22,21 @@ request.onload = function () {
         let paragraph2 = document.createElement("p");
         let paragraph3 = document.createElement("p");
         let paragraph4 = document.createElement("p");
-        let myPicts = document.createElement("img");
+        let myImg = document.createElement("img");
 
         h2.textContent = place[i].name;
         paragraph1.textContent = place[i].motto;
         paragraph2.textContent = "Year Founded: " + place[i].yearFounded;
         paragraph3.textContent = "Population: " + place[i].currentPopulation;
         paragraph4.textContent = "Annual Rain Fall:" + place[i].averageRainfall;
-        myPicts.src = "images/sodasprings.jpg";
+        myImg.src = "images/sodasprings.jpg";
         article.appendChild(h2);
         article.appendChild(paragraph);
         article.appendChild(paragraph1);
         article.appendChild(paragraph2);
         article.appendChild(paragraph3);
         article.appendChild(paragraph4);
-        article.appendChild(myPicts);
+        article.appendChild(myImg);
 
         section.appendChild(article);
       }
