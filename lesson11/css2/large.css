@@ -1,0 +1,27 @@
+ul{ margin-bottom:0px;
+    overflow:hidden;
+    border-top:1px solid #ccc;
+  }
+  li{
+    line-height:1.5em;
+    border-bottom:1px solid #ccc;
+    float:left;
+    display:inline;
+  }
+ h2 {text-align:center;}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    max-width: 1335px;
+    margin: 0 auto;
+}
+.gallery {
+  padding: 0 0 4rem 0;
+}
+article img {
+	width: 100%;
+  height: auto;
+	object-fit: cover;
+}
