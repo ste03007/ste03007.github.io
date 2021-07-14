@@ -17,3 +17,11 @@ section {
     max-width: 1335px;
     margin: 0 auto;
 }
+.gallery {
+  padding: 0 0 4rem 0;
+}
+article img {
+	width: 100%;
+  height: auto;
+	object-fit: cover;
+}
