@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clinten Stewart" />
+    <title>WDD 230 Week 7</title>
+    <link
+      rel="normalize"
+      href="https://sdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="googleapis"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <div id="prestonPancakes">
+      <p>
+        Saturday = Preston Pancakes in the Park! <br />9:00 a.m. Saturday at the
+        city park pavilion.
+      </p>
+    </div>
+    <header>
+      <img src="images/weatherlogo1.jpg" alt="logo website" />
+      <div class="boxes">
+        <h1>Predictable Weather!</h1>
+        <div class="acurate">Acurate/Dependable</div>
+      </div>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">☰ Menu</a></li>
+        <li><a href="./">Home</a><br /></li>
+        <li class="active"><a href="preston-4.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li class="active1"><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Weather Gallery</h2>
+      <div id="imgflex">
+        <div id="grid">
+          <div class="imgone">
+            <img
+              src="images/placeholder.jpg" class="img1"
+              data-src="images/gallery1.png"
+              alt="img_1"
+            /><br />
+            <p class="part">Partly Cloudy Day</p>
+          </div>
+          <div class="imgtwo">
+            <img
+              src="images/placeholder.jpg" class="img2"
+              data-src="images/gallery2.jpg"
+              alt="img_2"
+            /><br />
+            <p class="fog">Foggy</p>
+          </div>
+          <div class="imgthree">
+            <img
+              src="images/placeholder.jpg" class="img3"
+              data-src="images/gallery3.jpg"
+              alt="img_3"
+            /><br />
+            <p class="clear">Clear Skies</p>
+          </div>
+          <div class="imgfour">
+            <img
+              src="images/placeholder.jpg" class="img4"
+              data-src="images/gallery4.jpg"
+              alt="img_4"
+            /><br />
+            <p class="little">Little Overcast</p>
+          </div>
+          <div class="imgfive">
+            <img
+              src="images/placeholder.jpg" class="img5"
+              data-src="images/gallery5.jpg"
+              alt="img_5"
+            /><br />
+            <p class="hot">Hot Summer Day</p>
+          </div>
+          <div class="imgsix">
+            <img
+              src="images/placeholder.jpg" class="img6"
+              data-src="images/gallery6.jpg"
+              alt="img_6"
+            /><br />
+            <p class="heavy">Heavy Snow</p>
+          </div>
+          <div class="imgseven">
+            <img
+              src="images/placeholder.jpg" class="img7"
+              data-src="images/gallery7.jpg"
+              alt="img_7"
+            /><br />
+            <p>Warming up Clear Skies</p>
+          </div>
+          <div class="imgeight">
+            <img
+              src="images/placeholder.jpg" class="img8"
+              data-src="images/gallery8.jpg"
+              alt="img_8"
+            /><br />
+            <p class="sky">Clear Sky All Night</p>
+          </div>
+          <div class="imgnine">
+            <img
+              src="images/placeholder.jpg" class="img9"
+              data-src="images/gallery9.jpg"
+              alt="img_9"
+            /><br />
+            <p class="all">Hot All Day</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footerbottom">
+        <h3>&copy; Clinten Stewart, <span id="currentDate"></span> <br /></h3>
+      </div>
+    </footer>
+    <script src="js/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Ubuntu"] } });
+    </script>
+  </body>
+</html>
