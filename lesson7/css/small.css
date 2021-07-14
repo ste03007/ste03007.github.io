@@ -15,12 +15,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-header img {
-  width: 60px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
 .moto {
   color: #00171f;
   font-size: 10px;
@@ -262,10 +256,4 @@ footer p {
   width: 100%;
   height: auto;
 }
-/*gallery*/
-img {
-    display: block;
-    border: 0;
-    width: 100%;
-    height: auto;
-  }
+
