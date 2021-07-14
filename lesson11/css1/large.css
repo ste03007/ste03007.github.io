@@ -74,23 +74,17 @@
     box-shadow: 10px 10px 10px grey;
     width: 336px;
   }
-  footer {
-    background-color: #00a7e1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 15px;
-    padding-top: 15px;
-  }
-
-  footer p {
-    font-size: 14px;
-    color: #00171f;
+  body {
+    margin: 0 auto;
+    background-color:#eee;
+    width: 1700px;
+    border: 1px solid #777;
+    padding: 10px;
   }
   p {
     width: 360px;
+    height: auto;
+    align-content: center;
   }
   #grid {
     display: grid;
