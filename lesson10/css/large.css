@@ -1,27 +1,30 @@
 @media only screen and (min-width: 60em) {
     header img {
-      width: 160px;
+      width: 100px;
       height: auto;
+    }
+    header {
+      height: 140px;
     }
     main{
    max-width: 800px;
     }
     h1 {
-      font-size: 80px;
+      font-size: 60px;
     }
     h2 {
-      font-size: 45px;
+      font-size: 35px;
       max-height: 13px;
       display: block;
       padding: 25px;
     }
 
     h3 {
-      font-size: 35px;
+      font-size: 25px;
       padding: 10px;
     }
     h4 {
-      font-size: 40px;
+      font-size: 30px;
       max-height: 13px;
     }
     .navigation a {
@@ -56,7 +59,7 @@
       float: right;
     }
     .flex img{
-     width: 74px;
+     width: 64px;
      height: auto;
     }
     .hero1 source{

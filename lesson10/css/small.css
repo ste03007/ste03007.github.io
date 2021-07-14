@@ -1,344 +1,345 @@
 body {
-  font-family: "Ubuntu";
+font-family: "Ubuntu";
 }
 
 footer,
 main {
-  max-width: 80em;
-  margin: 0 auto;
+max-width: 80em;
+margin: 0 auto;
 }
 header,
 nav {
-  margin: 0 auto;
-  font-family: "Ubuntu";
+margin: 0 auto;
+font-family: "Ubuntu";
 }
 
 header {
-  background-color: #00a7e1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Ubuntu";
+background-color: #00a7e1;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Ubuntu";
 }
 
 header img {
-  width: 60px;
-  height: auto;
+width: 60px;
+height: auto;
 }
 .headings {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 .headings h1 {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  color: #ffffff;
-  font-family: "Ubuntu";
+display: flex;
+flex-direction: column;
+font-size: 18px;
+color: #ffffff;
+font-family: "Ubuntu";
 }
 .moto {
-  color: #00171f;
-  font-size: 10px;
+color: #00171f;
+font-size: 10px;
 }
 .boxes {
-  display: flex;
-  flex-direction: column;
-  padding: 22px;
+display: flex;
+flex-direction: column;
+padding: 22px;
 }
 .logo h1 {
-  font-size: 18px;
-  color: #ffffff;
-  margin: auto;
+font-size: 18px;
+color: #ffffff;
+margin: auto;
 }
 
 li {
-  display: list-item;
+display: list-item;
 }
 
 nav {
-  background-color: #00171f;
+background-color: #00171f;
 }
 
 .navigation {
-  max-width: 80em;
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+max-width: 80em;
+list-style: none;
+margin: 0 auto;
+padding: 0;
+text-align: center;
 }
 .navigation li:first-child {
-  display: block;
-  text-align: center;
+display: block;
+text-align: center;
 }
 .navigation li {
-  display: none;
-  text-align: center;
-  height: 50px;
+display: none;
+text-align: center;
+height: 50px;
 }
 
 .contentbox {
-  text-align: center;
-  font-size: 30px;
-  padding-top: 45px;
+text-align: center;
+font-size: 30px;
+padding-top: 45px;
 }
 .navigation a {
-  display: block;
-  font-size: 18px;
-  color: #ffff;
-  text-decoration: #00a7e1;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-family: "Ubuntu";
+display: block;
+font-size: 18px;
+color: #ffff;
+text-decoration: #00a7e1;
+padding-top: 15px;
+padding-bottom: 15px;
+font-family: "Ubuntu";
 }
 
 .responsive li {
-  display: block;
+display: block;
 }
 nav a:hover {
-  background-color: #00171f;
-  color: #ffffff;
+background-color: #00171f;
+color: #ffffff;
 }
 .active {
-  background-color: #00171f;
-  border-left: 4px solid #00a7e1;
-  border-right: 4px solid #00a7e1;
+background-color: #00171f;
+border-left: 4px solid #00a7e1;
+border-right: 4px solid #00a7e1;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 main div {
-  padding: 15px;
-  font-family: "Ubuntu";
+padding: 15px;
+font-family: "Ubuntu";
 }
 
 footer {
-  background-color: #00a7e1;
+background-color: #00a7e1;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: #ffffff;
 }
 
 footer p {
-  font-size: 14px;
-  color: #00171f;
+font-size: 14px;
+color: #00171f;
 }
 
 h1 {
-  font-size: 15px;
-  color: #00171f;
-  margin: 0%;
+font-size: 15px;
+color: #00171f;
+margin: 0%;
 }
 
 h2 {
-  display: block;
-  font-size: 25px;
-  color: #00171f;
-  text-align: center;
+display: block;
+font-size: 25px;
+color: #00171f;
+text-align: center;
 }
 
 h3 {
-  display: none;
-  width: 100%;
-  font-size: 20px;
-  color: #00171f;
+display: none;
+width: 100%;
+font-size: 20px;
+color: #00171f;
 }
 
 p {
-  font-size: 13px;
-  
+font-size: 13px;
+
 }
 div.acurate {
-  font-size: 13px;
+font-size: 13px;
 }
 
 /*lESSON FIVE CONTAINER AND OVERLAY*/
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 .container {
-  position: relative;
-  width: 100%;
-  height: auto;
+position: relative;
+width: 100%;
+height: auto;
 }
 
 .description {
-  list-style: none;
-  position: absolute;
-  top: 0.1rem;
-  border-left: 10px;
-  background: rgba(1, 48, 148, 0.926);
-  opacity: 3;
-  border: 1px solid #00171f;
-  padding: 0.3rem;
-  margin: 25px;
-  max-width: 190px;
-  height: auto;
-  font-size: 10px;
-  text-justify: auto;
+list-style: none;
+position: absolute;
+top: 0.1rem;
+border-left: 10px;
+background: rgba(1, 48, 148, 0.926);
+opacity: 3;
+border: 1px solid #00171f;
+padding: 0.3rem;
+margin: 25px;
+max-width: 190px;
+height: auto;
+font-size: 10px;
+text-justify: auto;
 }
 .overlay {
-  color: #ffffff;
+color: #ffffff;
 }
 .container {
-  opacity: 4.5;
-  color: rgb(2, 3, 9);
+opacity: 4.5;
+color: rgb(2, 3, 9);
 }
 .container img {
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }
 .flex {
-  display: flex;
-  flex-flow: row wrap;
+display: flex;
+flex-flow: row wrap;
 }
 
 .flex-col {
-  display: none;
-  flex: 1 1 auto;
-  background-color: #00a7e1;
+display: none;
+flex: 1 1 auto;
+background-color: #00a7e1;
 }
 .flex-col,
 .column-col,
 .grid-col {
-  border-bottom: 1px solid #333;
-  border-top: 1px solid #333;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
-  text-align: center;
+border-bottom: 1px solid #333;
+border-top: 1px solid #333;
+border-left: 1px solid #333;
+border-right: 1px solid #333;
+text-align: center;
 }
 .flex-col:hover,
 td:hover,
 .column-col:hover,
 .grid-col:hover {
-  opacity: 0.75;
-  background-color: black;
-  color: white;
+opacity: 0.75;
+background-color: black;
+color: white;
 }
 
 .data {
-  display: block;
-  padding: 0 5px 5px;
-  font-size: 0.8rem;
-  text-align: center;
+display: block;
+padding: 0 5px 5px;
+font-size: 0.8rem;
+text-align: center;
 }
 
 .col-head,
 th {
-  font-weight: 700;
-  font-size: 1rem;
-  background-color: black;
-  color: white;
+font-weight: 700;
+font-size: 1rem;
+background-color: black;
+color: white;
 }
 
 #article {
-  border: 2px solid #000000;
-  background: #00a7e1;
-  margin-top: 10px;
-  padding: 15px;
-  overflow: auto;
-  align-content: center;
+border: 2px solid #000000;
+background: #00a7e1;
+margin-top: 10px;
+padding: 15px;
+overflow: auto;
+align-content: center;
 }
 
 #contactArea {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #00a7e1;
-  padding: 15px;
-  align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: #00a7e1;
+padding: 15px;
+align-items: center;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 
 #mapImg {
-  display: block;
-  height: auto;
-  justify-self: end;
-  width: 100%;
-  max-width: 488px;
+display: block;
+height: auto;
+justify-self: end;
+width: 100%;
+max-width: 488px;
 }
 
 #contactTextArea {
-  display: flex;
-  flex-direction: column;
-  background-color: #00a7e1;
+display: flex;
+flex-direction: column;
+background-color: #00a7e1;
 }
 
 #contactTextArea p {
-  margin: 0;
-  padding: 10px;
-  padding-bottom: 15px;
-  background-color: #00a7e1;
+margin: 0;
+padding: 10px;
+padding-bottom: 15px;
+background-color: #00a7e1;
 }
 
 #contactTextArea h3 {
-  grid-column: 1 / 3;
-  margin-top: 0;
+grid-column: 1 / 3;
+margin-top: 0;
 }
 .socialIcon {
-  width: 35px;
-  height: auto;
+width: 35px;
+height: auto;
 }
 
 .town-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  align-content: space-between;
-  background-color: #00a7e1;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+width: 100%;
+height: auto;
+align-content: space-between;
+background-color: #00a7e1;
 }
 
 .section {
-  background-color: #00a7e1;
+background-color: #00a7e1;
 }
 
 #footerbottom {
-  background-color: #153e5c;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+background-color: #153e5c;
+color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 
 footer p {
-  font-size: 14px;
-  text-align: center;
-  color: #ffffff;
+font-size: 14px;
+text-align: center;
+color: #ffffff;
 }
 
 #prestonPancakes {
-  display: none;
-  background: #00a7e1;
-  padding: 15px;
-  text-align: center;
+display: none;
+background: #00a7e1;
+padding: 15px;
+text-align: center;
 }
 
 #prestonPancakes p {
-  margin: 0;
+margin: 0;
 }
 .mtn {
-  background-color: #00a7e1;
-  text-align: center;
-  width: 100%;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+background-color: #00a7e1;
+text-align: center;
+width: 100%;
+grid-column: 1 / 2;
+grid-row: 2 / 3;
 }
 .map2 {
-  width: 50%;
+width: 50%;
 }
 .colors {
-  background-color: #00a7e1;
+background-color: #00a7e1;
 }
 .hero3 source {
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
+
