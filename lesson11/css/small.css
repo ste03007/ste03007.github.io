@@ -127,14 +127,9 @@ font-size: 15px;
 color: #00171f;
 margin: 0%;
 }
-
 h2 {
-display: block;
-font-size: 25px;
-color: #00171f;
-text-align: center;
+ display: block;
 }
-
 h3 {
 display: none;
 width: 100%;

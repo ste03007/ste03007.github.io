@@ -34,9 +34,6 @@
   nav ul {
     flex-flow: row wrap;
   }
-  footer p {
-    font-size: 30px;
-  }
   #mapImg {
     display: block;
   }
