@@ -13,11 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
       rel="googleapis"
     />
-    <link rel="stylesheet" href="css/normalize.css3" />
-    <link rel="stylesheet" href="css/small.css3" />
-    <link rel="stylesheet" href="css/medium.css3" />
-    <link rel="stylesheet" href="css/large.css3" />
-    <link rel="stylesheet" href="css/tablebuild.css3" />
+    <link rel="stylesheet" href="css3/normalize.css" />
+    <link rel="stylesheet" href="css3/small.css" />
+    <link rel="stylesheet" href="css3/medium.css" />
+    <link rel="stylesheet" href="css3/large.css" />
   </head>
 
   <body>
@@ -34,75 +33,85 @@
         <div class="acurate">Acurate/Dependable</div>
       </div>
     </header>
-    <nav><ul class="navigation">
-      <li><a class="ham" href="#">☰ Menu</a></li>
-      <li><a href="./">Home</a><br /></li>
-      <li class="active"><a href="preston-10.html">Preston</a></li>
-      <li><a href="#">Soda Springs</a></li>
-      <li><a href="#">Fish Haven</a></li><li class="active1">
-      <a href="stormcenter.html">Storm Center</a></li>
-      <li class="active1"><a href="gallery-11.html">Gallery</a></li>
-    </ul>
-    </nav><input type="text" name="name" value="" id="name" placeholder="First Name" data-source="leadpages-full_name" data-role="full_name" required="required">
-    <span class="error-container" id="leadpages-error-name">You must fill out this field in order to proceed</span>
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">☰ Menu</a></li>
+        <li><a href="./">Home</a><br /></li>
+        <li class="active"><a href="preston-10.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li class="active1">
+          <a href="stormcenter.html">Storm Center</a>
+        </li>
+        <li class="active1"><a href="gallery-11.html">Gallery</a></li>
+      </ul>
+    </nav>
     <h2>Storm Report Information</h2>
-    <form onsubmit="return false"></form>
-    <input type="text" name="name" placeholder="Enter your first name" id="firstName" data-role="full_name" required="required" />
-    <br /><br />
-    <input type="text" placeholder="Enter your last name" id="lastName" />
-    <br /><br />
-    <input type="email" placeholder="Enter your email" id="email" />
-    <br /><br />
-    <input type="text" placeholder="Phone Number" id="phoneNumber" />
-    <br /><br />
-    <input type="text" placeholder="Zip Code" id="zip" />
-    <br /><br />
-    <input type="text" placeholder="Storm Date" id="date" />
-    <br /><br />  
-    <select id="country">
-      <option disabled selected value>-- storm type --</option>
-      <option value="FF">Flash Flood</option>
-      <option value="H">Hail</option>
-      <option value="HU">Hurricane</option>
-      <option value="TS">&#x1F329;Thunder Storm</option>
-      <option value="T">&#x1F32A;Tornado</option>
-    </select>
-    <br /><br />
+    <form action="/action_page.php" method="get">
+      <input
+        type="text"
+        name="name"
+        placeholder="Enter your first name"
+        id="firstName"
+        data-role="full_name"
+        required="required"
+      />
+      <br /><br />
+      <input
+        type="text"
+        placeholder="Enter your last name"
+        id="lastname"
+        data-role="full_name"
+        required="required"
+      />
+      <br /><br />
+      <input type="email" placeholder="Enter your email" id="email" required/>
+      <br /><br />
+      <input type="text" placeholder="Phone Number" id="phoneNumber" pattern="^\d{4}-\d{3}-\d{4}$" required />
+      <br /><br />
+      <input type="text" placeholder="Zip Code" id="zip" />
+      <br /><br />
+      <input type="text" placeholder="Storm Date" id="date" />
+      <br /><br />  
+      <select id="country">
+        <option disabled selected value>-- storm type --</option>
+        <option value="FF">Flash Flood</option>
+        <option value="H">Hail</option>
+        <option value="HU">Hurricane</option>
+        <option value="TS">&#x1F329;Thunder Storm</option>
+        <option value="T">&#x1F32A;Tornado</option>
+      </select>
+      <br /><br />
       <form action="/action_page.php">
         <label for="vol">Storm Severity between 1 and 10</label>
-        <input type="range" id="vol" name="vol" min="0" max="10">
-        <input type="submit">
-      </form>
-    </select>
-    <br /><br />
-    <select id="country2">
-      <option disabled selected value>-- select region --</option>
-      <option value="FH">Fish Haven</option>
-      <option value="Pr">Preston</option>
-      <option value="SS">Soda Springs</option>
-    </select>
-    <div>-- user in-danger level --</div>
-    <input type="radio" id="yes" name="answer" value="yes" /> Yes
-    <input type="radio" id="maybe" name="answer" value="maybe" /> Maybe
-    <input type="radio" id="no" name="answer" value="no" /> No <br /><br />
-    <span>additional information or comments</span>
-    <br />
-    <textarea id="comments" rows="4"></textarea>
+        <input type="range" id="vol" name="vol" min="0" max="10" />
+      <br /><br />
+      <select id="country2">
+        <option disabled selected value>-- select region --</option>
+        <option value="FH">Fish Haven</option>
+        <option value="Pr">Preston</option>
+        <option value="SS">Soda Springs</option>
+      </select>
+      <div>-- user in-danger level --</div>
+      <input type="radio" id="yes" name="answer" value="yes" /> Yes
+      <input type="radio" id="maybe" name="answer" value="maybe" /> Maybe
+      <input type="radio" id="no" name="answer" value="no" /> No <br /><br />
+      <span>additional information or comments</span>
+      <br />
+      <textarea id="comments" rows="4"></textarea>
+      <input type="submit" />
+    </form>
     <br /><br />
     <div class="controls">
-      <button id="leadpages-submit-button" type="submit">
+      <script></script>
 
-
-<div style="text-align: center">Click here to join! &nbsp;&nbsp; »</div>
-      </button>
-  </div>
-    <button onclick="sendContact();">form submission button</button>
+      <p id="demo"></p>
+    </div>
     <footer>
-      <div id="footerbottom">
-        <h3>&copy; Clinten Stewart, <span id="currentDate"></span> <br /></h3>
-      </div>
+      <p>&copy; Clinten Stewart, <span id="currentDate"></span></p>
     </footer>
-    <script src="stormcenter.js"></script>
+    <script src="js/stormcenter.js"></script>
+    <script defer src="js/prestonindex.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({ google: { families: ["Ubuntu"] } });

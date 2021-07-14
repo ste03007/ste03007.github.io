@@ -1,97 +1,3 @@
-const hamButton = document.querySelector(".ham");
-const mainMenu = document.querySelector(".navigation");
-
-hamButton.addEventListener(
-  "click",
-  () => {
-    mainMenu.classList.toggle("responsive");
-  },
-  false
-);
-
-window.onresize = () => {
-  if (window.innerWidth > 760) {
-    mainMenu.classList.remove("responsive");
-  }
-};
-const daynames = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
-const todaysdate = new Date();
-const dayName = daynames[todaysdate.getDay()];
-const monthName = months[todaysdate.getMonth()];
-const year = todaysdate.getFullYear();
-const currentDate =
-  dayName + ", " + todaysdate.getDate() + " " + monthName + " " + year;
-const options = {
-  weekday: "long",
-  month: "long",
-  day: "numeric",
-  year: "numeric",
-};
-
-document.getElementById("currentDate").textContent = currentDate;
-
-if (todaysdate.getDay() == 5) {
-  document.querySelector("#prestonPancakes").style.display = "block";
-}
-
-//*image javascript*//
-const imagesToLoad = document.querySelectorAll("img[data-src]");
-
-const imgOptions = {
-  threshold: 0,
-  rootMargin: "0px 0px 50px 0px",
-};
-
-const loadImages = (image) => {
-  image.setAttribute("src", image.getAttribute("data-src"));
-  image.onload = () => {
-    image.removeAttribute("data-src");
-  };
-};
-
-if ("IntersectionObserver" in window) {
-  const imgObserver = new IntersectionObserver((items, imgObserver) => {
-    items.forEach((item) => {
-      if (item.isIntersecting) {
-        loadImages(item.target);
-        imgObserver.unobserve(item.target);
-      }
-    });
-  });
-  imagesToLoad.forEach((img) => {
-    imgObserver.observe(img);
-  });
-} else {
-  imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
-}
-
-
-
-
 function fieldValidation(field, validationFunction) {
   if (field == null) return false;
 
@@ -115,26 +21,29 @@ function fieldValidation(field, validationFunction) {
  }
  class User {
   constructor(firstName, lastName, answer, zip, country, email, question) {
-  this.firstName = firstName;
-  this.lastName = lastName;
-  this.answer = answer;
-  this.zip = zip;
-  this.country = country;
-  this.email = email
-  this.question = question;
+  let.firstName = firstName;
+  let.lastName = lastName;
+  let.answer = answer;
+  let.zip = zip;
+  let.country = country;
+  let.email = email;
+  let.question = question;
   }
  }
  class User {
   constructor(firstName, lastName, gender, address, country, email, newsletter, question) {
-  this.firstName = firstName;
-  this.lastName = lastName;
-  this.gender = gender;
-  this.address = address;
-  this.country = country;
-  this.email = email;
-  this.newsletter = newsletter;
-  this.question = question;
+  let.firstName = firstName;
+  let.lastName = lastName;
+  let.gender = gender;
+  let.address = address;
+  let.country = country;
+  let.email = email;
+  let.newsletter = newsletter;
+  let.question = question;
   }
+ }
+ function isNumber(num) {
+  return (num.length > 0) && !isNaN(num);
  }
  function isEmail(email) {
   let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
@@ -171,12 +80,26 @@ function getAnswer() {
    }
    class User {
     constructor(firstName, lastName, answer, zip, country, email, comments) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.answer = answer;
-    this.zip = zip;
-    this.country = country;
-    this.email = email;
-    this.comments = comments;
+    let.firstName = firstName;
+    let.lastName = lastName;
+    let.answer = answer;
+    let.zip = zip;
+    let.country = country;
+    let.email = email;
+    let.comments = comments;
     }
+   }
+   function isEmail(email)
+   {
+   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+   if(email.value.match(mailformat))
+   {
+   return true;
+   }
+   else
+   {
+   alert("You have entered an invalid email address!");
+   email.focus();
+   return false;
+   }
    }
