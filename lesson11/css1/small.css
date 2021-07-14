@@ -65,6 +65,7 @@ text-decoration: #00a7e1;
 padding-top: 15px;
 padding-bottom: 15px;
 }
+
 .responsive li {
 display: block;
 }
@@ -112,6 +113,7 @@ max-width: 100%;
 background-color: #153e5c;
 }
 footer p {
+
 color: #ffffff;
 }
 div.acurate {
@@ -220,102 +222,7 @@ height: auto;
 }
 /*gallery*/
 
-.imgone {
+img {
   justify-content: center;
   border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgtwo {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgthree {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgfour {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgfive {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgsix {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgseven {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgeight {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
-}
-.imgnine {
-  justify-content: center;
-  border: lightblue;
-  font-family: "Ubuntu";
-padding-bottom: 10px;
-padding-top: 10px;
-border-left: 4px solid #00171f;
-border-right: 4px solid #00171f;
-text-align: center;
-border: 0;
 }
