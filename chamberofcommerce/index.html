@@ -13,34 +13,34 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
       rel="googleapis"
     />
-    <link rel="stylesheet" href="css2/normalize.css" />
-    <link rel="stylesheet" href="css2/small.css" />
-    <link rel="stylesheet" href="css2/medium.css" />
-    <link rel="stylesheet" href="css2/large.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
   </head>
 
   <body>
     <header>
-      <img src="" alt="logo website" />
+      <img src="images/chamblogo.png" alt="logo website" />
       <div class="boxes">
-        <h1>Rexburg Chamber Of Commerce</h1>
         <div class="acurate">Chamber Main Menu</div>
       </div>
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">☰ Menu</a></li>
+          <li><a href="./">Home</a><br /></li>
+          <li><a href="preston-10.html">Preston</a></li>
+          <li><a href="sodasprings.html">Soda Springs</a></li>
+          <li><a href="fish.html">Fish Haven</a></li>
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery-11.html">Gallery</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul class="navigation">
-        <li><a class="ham" href="#">☰ Menu</a></li>
-        <li><a href="./">Home</a><br /></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
-    </nav>
     <main>
+      <div class="flex-container">
         <h2>Local Business Spotlight</h2>
-        <section>
+        <section class="flex-item-left">
         <h3>Precision Auto Glass</h3>
         <ul>
           <li><a href="https://precision-auto-glass.business.site/" target="_blank">Home Page</a></li>
@@ -49,7 +49,7 @@
         <p>
         </p>
       </section>
-      <section>
+      <section class="flex-item-right">
         <h3>Sand Dune Firewood</h3>
 
         <ul>
@@ -70,7 +70,8 @@
         <p>
         </p>
       </section>
-      <section id="places"></section><div class="overlay">
+      <section id="container"></section>
+      <div class="overlay">
         <ul class="description">
           <li>
             <p>WeatherSummary <br />----------------------------</p>
@@ -92,10 +93,10 @@
           </li>
         </ul>
       </div>
-      <h2>5 Day forecast</h2>
+      <h3>3 Day forecast</h3>
       <div class="flex">
         <div class="flex-col">
-          <span class="col-head">Wed</span>
+          <span class="col-head"></span>
           <p class="dow" id="day-1"></p>
           <img
             class="icons"
@@ -106,7 +107,7 @@
           <p id="temp-1"><span class="temp"></span>°F</p>
         </div>
         <div class="flex-col">
-          <span class="col-head">Thurs</span>
+          <span class="col-head"></span>
           <p class="dow" id="day-2"></p>
           <img
             class="icons"
@@ -117,7 +118,7 @@
           <p id="temp-2"><span class="temp"></span>°F</p>
         </div>
         <div class="flex-col">
-          <span class="col-head">Fri</span>
+          <span class="col-head"></span>
           <p class="dow" id="day-3"></p>
           <img
             class="icons"
@@ -127,15 +128,6 @@
           />
           <p id="temp-3"><span class="temp"></span>°F</p>
         </div>
-        <div class="flex-col">
-          <span class="col-head">Sat</span>
-          <p class="dow" id="day-4"></p>
-          <img
-            class="icons"
-            id="sun-4"
-            src="images/fullsun-medium-large-200x200px.png"
-            alt="weather logo"
-          />
     </main>
     <footer>
         <div class="icon">

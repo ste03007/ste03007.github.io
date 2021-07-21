@@ -1,9 +1,9 @@
 let forecastURL =
   "https://api.openweathermap.org/data/2.5/forecast?units=imperial&id=";
 
-let cityIdentification = "5604473";
+let cityIdentification = "5605242";
 
-let APIkey = "dd99eea42d98bdd2c3700a8b64a66250";
+let APIkey = "40e1779284940cdf262c2aa55d3f24dd";
 
 let requestedURL = forecastURL + cityIdentification + "&appid=" + APIkey;
 
