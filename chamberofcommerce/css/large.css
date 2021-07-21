@@ -43,7 +43,8 @@
 }
 footer {
     max-width: 100%;
-    background-color: #111;
+    background-color: rgba(1, 148, 87, 0.926);
+    border-style: solid;
     }
     footer p {
     font-size: 14px;
@@ -51,5 +52,5 @@ footer {
     color: #ffffff;
     }
     section{
-        background-color: rgb(6, 141, 58);
+        background-color: rgba(1, 148, 87, 0.926);
     }
