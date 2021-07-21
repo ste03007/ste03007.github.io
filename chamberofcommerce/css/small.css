@@ -168,6 +168,7 @@ ul {
 .overlay {
   color: black;
 }
-html,header {
-  background-image: url("your.picture");
+header,footer {
+  background: url("https://images.pexels.com/photos/108942/pexels-photo-108942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") 0 / cover
+    fixed;
 }
