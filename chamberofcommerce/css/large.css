@@ -36,5 +36,10 @@
   .submenu-active {
     border-radius: 0;
   }
-
+h2{
+    align-content: left;
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
 }
