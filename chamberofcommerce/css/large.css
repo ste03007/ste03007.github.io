@@ -32,14 +32,24 @@
         justify-content: flex-start;
         max-width: 700px;
         margin: 0 auto;
+
     }
   .submenu-active {
     border-radius: 0;
   }
-h2{
-    align-content: left;
-    width: 100%;
-    height: auto;
-    align-content: center;
+  h2 {
+ margin: 0;
 }
 }
+footer {
+    max-width: 100%;
+    background-color: #111;
+    }
+    footer p {
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    }
+    section{
+        background-color: rgb(6, 141, 58);
+    }
