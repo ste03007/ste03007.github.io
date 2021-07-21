@@ -17,30 +17,51 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
   </head>
 
   <body>
     <header>
       <img src="images/chamblogo.png" alt="logo website" />
       <div class="boxes">
+        <h1>Rexburg Chamber Of Commerce</h1>
         <div class="acurate">Chamber Main Menu</div>
       </div>
       <nav>
-        <ul class="navigation">
-          <li><a class="ham" href="#">☰ Menu</a></li>
-          <li><a href="./">Home</a><br /></li>
-          <li><a href="preston-10.html">Preston</a></li>
-          <li><a href="sodasprings.html">Soda Springs</a></li>
-          <li><a href="fish.html">Fish Haven</a></li>
-          <li><a href="stormcenter.html">Storm Center</a></li>
-          <li><a href="gallery-11.html">Gallery</a></li>
+        <ul class="menu">
+            <li class="logo"><a href="#">Creative Mind Agency</a></li>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Services</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">Design</a></li>
+                    <li class="subitem"><a href="#">Development</a></li>
+                    <li class="subitem"><a href="#">SEO</a></li>
+                    <li class="subitem"><a href="#">Copywriting</a></li>
+                </ul>
+            </li>
+            <li class="item has-submenu">
+                <a tabindex="0">Plans</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">Freelancer</a></li>
+                    <li class="subitem"><a href="#">Startup</a></li>
+                    <li class="subitem"><a href="#">Enterprise</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="#">Blog</a></li>
+            <li class="item"><a href="#">Contact</a>
+            </li>
+            <li class="item button"><a href="#">Log In</a></li>
+            <li class="item button secondary"><a href="#">Sign Up</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
         </ul>
-      </nav>
+    </nav>
     </header>
     <main>
-      <div class="flex-container">
         <h2>Local Business Spotlight</h2>
-        <section class="flex-item-left">
+        <section>
         <h3>Precision Auto Glass</h3>
         <ul>
           <li><a href="https://precision-auto-glass.business.site/" target="_blank">Home Page</a></li>
@@ -49,7 +70,7 @@
         <p>
         </p>
       </section>
-      <section class="flex-item-right">
+      <section>
         <h3>Sand Dune Firewood</h3>
 
         <ul>
@@ -70,8 +91,7 @@
         <p>
         </p>
       </section>
-      <section id="container"></section>
-      <div class="overlay">
+      <section id="container"></section><div class="overlay">
         <ul class="description">
           <li>
             <p>WeatherSummary <br />----------------------------</p>
@@ -152,6 +172,7 @@
           </div>
       <p>&copy; Clinten Stewart, <span id="currentDate"></span></p>
     </footer>
+    <script src="js/menu.js"></script>
     <script src="js/forcast.js"></script>
     <script defer src="js/weatherapi.js"></script>
   </body>
