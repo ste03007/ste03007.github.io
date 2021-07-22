@@ -53,9 +53,4 @@ footer {
     }
 section {
   background-color: rgba(1, 148, 87, 0.926);
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  max-width: 1335px;
-  margin: 0 auto;
 }
