@@ -1,4 +1,4 @@
-let section = document.getElementById("places");
+let section = document.getElementById("directory");
 let requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
