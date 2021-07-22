@@ -8,7 +8,7 @@ request.onload = function () {
   let southdec = request.response;
   idahodec(southdec);
   function idahodec(jsonObj) {
-    let dec = jsonObj["towns"];
+    let dec = jsonObj["business"];
     for (let i = 0; i < dec.length; i++) {
       if (
         dec[i].name == "Auto" ||
@@ -24,19 +24,17 @@ request.onload = function () {
         let paragraph4 = document.createElement("p");
         let myImg = document.createElement("img");
 
-        h2.textContent = dec[i].name;
-        paragraph1.textContent = dec[i].motto;
-        paragraph2.textContent = "Year Founded: " + dec[i].yearFounded;
-        paragraph3.textContent = "Population: " + dec[i].currentPopulation;
-        paragraph4.textContent = "Annual Rain Fall:" + dec[i].averageRainfall;
-        myImg.src = "images/sodasprings.jpg";
+        h2.textContent = dec[i].business_name;
+        paragraph1.textContent = dec[i].address;
+        paragraph2.textContent = "Street: " + dec[i].street;
+        paragraph3.textContent = "City: " + dec[i].city;
+        paragraph4.textContent = "State:" + dec[i].state;
         article.appendChild(h2);
         article.appendChild(paragraph);
         article.appendChild(paragraph1);
         article.appendChild(paragraph2);
         article.appendChild(paragraph3);
         article.appendChild(paragraph4);
-        article.appendChild(myImg);
 
         section.appendChild(article);
       }
