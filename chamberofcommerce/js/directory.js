@@ -1,4 +1,4 @@
-let section = document.getElementById("directory");
+let section = document.getElementById("directorys");
 let requestURL = "https://ste03007.github.io/chamberofcommerce/directory.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
@@ -8,12 +8,12 @@ request.onload = function () {
   let southdec = request.response;
   idahodec(southdec);
   function idahodec(jsonObj) {
-    let dec = jsonObj["business"];
-    for (let i = 0; i < dec.length; i++) {
+    let directory = jsonObj["business"];
+    for (let i = 0; i < directory.length; i++) {
       if (
-        dec[i].name == "Auto" ||
-        dec[i].name == "Pre" ||
-        dec[i].name == "Ste"
+        directory[i].name == "Auto" ||
+        directory[i].name == "Pre" ||
+        directory[i].name == "Ste"
       ) {
         let article = document.createElement("article");
         let h2 = document.createElement("h2");
@@ -24,11 +24,11 @@ request.onload = function () {
         let paragraph4 = document.createElement("p");
         let myImg = document.createElement("img");
 
-        h2.textContent = dec[i].business_name;
-        paragraph1.textContent = dec[i].address;
-        paragraph2.textContent = "Street: " + dec[i].street;
-        paragraph3.textContent = "City: " + dec[i].city;
-        paragraph4.textContent = "State:" + dec[i].state;
+        h2.textContent = directory[i].business_name;
+        paragraph1.textContent = directory[i].address;
+        paragraph2.textContent = "Street: " + directory[i].street;
+        paragraph3.textContent = "City: " + directory[i].city;
+        paragraph4.textContent = "State:" + directory[i].state;
         article.appendChild(h2);
         article.appendChild(paragraph);
         article.appendChild(paragraph1);
