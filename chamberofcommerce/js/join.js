@@ -1,3 +1,15 @@
+function isValid() {
+  var valid = true;
+
+  valid &= fieldValidation(fields.firstName, isNotEmpty);
+  valid &= fieldValidation(fields.lastName, isNotEmpty);
+  valid &= fieldValidation(fields.bName, isNotEmpty);
+  valid &= fieldValidation(fields.address, isNotEmpty);
+  valid &= fieldValidation(fields.member, isNotEmpty);
+  valid &= fieldValidation(fields.email, isEmail);
+  valid &= fieldValidation(fields.cell, isNumber);
+  valid &= fieldValidation(fields.descrip, isNotEmpty);
+
 function isNotEmpty(value) {
   if (value == null || typeof value == "undefined") return false;
   return value.length > 0;
@@ -28,31 +40,8 @@ function fieldValidation(field, validationFunction) {
 
   return isFieldValid;
 }
-function isValid() {
-  var valid = true;
 
-  valid &= fieldValidation(fields.firstName, isNotEmpty);
-  valid &= fieldValidation(fields.lastName, isNotEmpty);
-  valid &= fieldValidation(fields.bName, isNotEmpty);
-  valid &= fieldValidation(fields.address, isNotEmpty);
-  valid &= fieldValidation(fields.member, isNotEmpty);
-  valid &= fieldValidation(fields.email, isEmail);
-  valid &= fieldValidation(fields.cell, isNumber);
-  valid &= fieldValidation(fields.password, isPasswordValid);
-  valid &= fieldValidation(fields.passwordCheck, isPasswordValid);
-  valid &= fieldValidation(fields.descrip, isNotEmpty);
-  valid &= arePasswordsEqual();
 
-  return valid;
-}
-function arePasswordsEqual() {
-  if (fields.password.value == fields.passwordCheck.value) {
-    field.password.className = "placeholderRed";
-    field.passwordCheck.className = "placeholderRed";
-    return true;
-  }
-  return false;
-}
 class User {
   constructor(
     firstName,
@@ -104,4 +93,4 @@ document.addEventListener("DOMContentLoaded", function () {
   fields.member = document.getElementById("member");
   fields.diScount = document.getElementById("diScount");
   fields.descrip = document.getElementById("descrip");
-});
+})};
