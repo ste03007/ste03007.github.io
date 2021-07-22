@@ -1,5 +1,5 @@
 let section = document.getElementById("directory");
-let requestURL = "https://github.com/ste03007/ste03007.github.io/blob/master/chamberofcommerce/directory.json";
+let requestURL = "https://ste03007.github.io/chamberofcommerce/directory.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
