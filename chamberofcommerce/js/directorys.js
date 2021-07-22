@@ -1,5 +1,5 @@
 let section = document.getElementById("directorys");
-let requestURL = "https://ste03007.github.io/chamberofcommerce/directory.json";
+let requestURL = "https://ste03007.github.io/chamberofcommerce/business.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
@@ -22,7 +22,6 @@ request.onload = function () {
         let paragraph2 = document.createElement("p");
         let paragraph3 = document.createElement("p");
         let paragraph4 = document.createElement("p");
-        let myImg = document.createElement("img");
 
         h2.textContent = directory[i].business_name;
         paragraph1.textContent = directory[i].address;
