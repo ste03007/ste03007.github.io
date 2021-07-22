@@ -1,44 +1,28 @@
 {
-    "business_name": "",
-    "address": {
-      "street": "",
-      "city": "Rexburg",
-      "state": "ID",
-      "postalCode": "83440"
-    },
-    "business_name1": "",
-    "address1": {
-      "street": "",
-      "city": "Rexburg",
-      "state": "ID",
-      "postalCode": "83440"
-    },
-    "business_name2": "",
-    "address2": {
-      "street": "",
-      "city": "Rexburg",
-      "state": "ID",
-      "postalCode": "83440"
-    },
-    "business_name3": "",
-    "address3": {
-      "street": "",
-      "city": "Rexburg",
-      "state": "ID",
-      "postalCode": "83440"
-    },
-    "business_name4": "",
-    "address4": {
-      "street": "",
-      "city": "Rexburg",
-      "state": "ID",
-      "postalCode": "83440"
-    },
-    "business_name5": "",
-    "address5": {
-      "street": "",
-      "city": "Rexburg",
-      "state": "ID",
-      "postalCode": "83440"
-    }
-  }
+ "business": [
+   {
+"business_name":"Auto",
+"address":"1",
+"street":"",
+"city":"Rexburg",
+"state":"ID",
+"postalCode":"83440"
+},
+{
+"business_name1":"Pre",
+"address1":"2",
+"street":"",
+"city":"Rexburg",
+"state":"ID",
+"postalCode":"83440"
+},
+{
+"business_name3":"Ste",
+"address3":"3",
+"street":"",
+"city":"Rexburg",
+"state":"ID",
+"postalCode":"83440"
+}
+]
+}

@@ -1,5 +1,5 @@
 let section = document.getElementById("directory");
-let requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+let requestURL = "https://github.com/ste03007/ste03007.github.io/blob/master/chamberofcommerce/directory.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
@@ -26,7 +26,7 @@ request.onload = function () {
 
         h2.textContent = place[i].name;
         paragraph1.textContent = place[i].motto;
-        paragraph2.textContent = "Year Founded: " + place[i].yearFounded;
+        paragraph2.textContent = "Year Founded: " + place[i].postalCode;
         paragraph3.textContent = "Population: " + place[i].currentPopulation;
         paragraph4.textContent = "Annual Rain Fall:" + place[i].averageRainfall;
         myImg.src = "images/sodasprings.jpg";
