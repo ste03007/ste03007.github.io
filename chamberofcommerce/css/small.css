@@ -93,7 +93,7 @@ a {
   padding: 10px 15px;
 }
 .submenu-active {
-  background-color: #111;
+  background-color: rgba(1, 148, 87, 0.926);
   border-radius: 3px;
 }
 .div img {
@@ -171,5 +171,9 @@ ul {
 }
 header,footer,.overlay {
   background: url("https://images.pexels.com/photos/108942/pexels-photo-108942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") 0 / cover
+    fixed;
+}
+.head1, .foot1 {
+  background: url("https://blog.alliancetitle.com/wp-content/uploads/2017/11/Alliance_Rexburg_Featured_Image_2017-1024x365.jpg") 0 / cover
     fixed;
 }

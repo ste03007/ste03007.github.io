@@ -21,7 +21,7 @@
     position: absolute;
     left: 0;
     top: 68px;
-    background: #111;
+    background: rgba(1, 148, 87, 0.926);
   }
   .toggle {
     display: none;
