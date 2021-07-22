@@ -5,15 +5,15 @@ request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 request.onload = function () {
-  let southPlace = request.response;
-  idahoPlace(southPlace);
-  function idahoPlace(jsonObj) {
-    let place = jsonObj["towns"];
-    for (let i = 0; i < place.length; i++) {
+  let southdec = request.response;
+  idahodec(southdec);
+  function idahodec(jsonObj) {
+    let dec = jsonObj["towns"];
+    for (let i = 0; i < dec.length; i++) {
       if (
-        place[i].name == "Preston" ||
-        place[i].name == "Soda Springs" ||
-        place[i].name == "Fish Haven"
+        dec[i].name == "Auto" ||
+        dec[i].name == "Pre" ||
+        dec[i].name == "Ste"
       ) {
         let article = document.createElement("article");
         let h2 = document.createElement("h2");
@@ -24,11 +24,11 @@ request.onload = function () {
         let paragraph4 = document.createElement("p");
         let myImg = document.createElement("img");
 
-        h2.textContent = place[i].name;
-        paragraph1.textContent = place[i].motto;
-        paragraph2.textContent = "Year Founded: " + place[i].postalCode;
-        paragraph3.textContent = "Population: " + place[i].currentPopulation;
-        paragraph4.textContent = "Annual Rain Fall:" + place[i].averageRainfall;
+        h2.textContent = dec[i].name;
+        paragraph1.textContent = dec[i].motto;
+        paragraph2.textContent = "Year Founded: " + dec[i].yearFounded;
+        paragraph3.textContent = "Population: " + dec[i].currentPopulation;
+        paragraph4.textContent = "Annual Rain Fall:" + dec[i].averageRainfall;
         myImg.src = "images/sodasprings.jpg";
         article.appendChild(h2);
         article.appendChild(paragraph);
