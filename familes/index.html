@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clinten Stewart" />
+    <title>Families</title>
+    <link
+      rel="normalize"
+      href="https://sdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="googleapis"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/script.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="images/weatherlogo1.jpg" alt="logo website" />
+      <div class="boxes">
+        <h1>Families First</h1>
+        <div class="acurate">Acurate/Dependable Information</div>
+      </div>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">☰ Menu</a></li>
+        <li><a href="./">Home</a><br /></li>
+        <li class="active"><a href="preston-4.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <span></span>
+      <h2>Happiness In Families</h2>
+      <div class="container">
+        <picture>
+          <source
+            media="(min-width: 880px)"
+            srcset="images/wdd230_image_franklinOriginalLarge.jpg"
+          />
+          <source
+            media="(min-width: 500px)"
+            srcset="images/wdd230_image_franklinOriginalm3.jpg"
+          />
+          <source
+            media="(min-width: 280px)"
+            srcset="images/wdd230_image_franklinOriginalsmall2.jpg"
+          />
+          <img
+            src="images/wdd230_image_franklinOriginalLarge.jpg"
+            style="width: auto"
+            alt="hero"
+          />
+        </picture>
+      </div>
+
+      <div class="">
+        <h2></h2>
+        <div class="">
+          <section class="">
+            <h2></h2>
+            <article>
+              <h3></h3>
+              <div class=""></div>
+              <p></p>
+            </article>
+          </section>
+        </div>
+      </div>
+
+      <section>
+        <h3>Contact Information</h3>
+        <article class="colors">
+          <h3>Map</h3>
+          <div id="contactArea">
+            <section id="contactTextArea">
+              <h3>Help with families</h3>
+              <p>4460 North Salem Road E<br />Rexuburg, ID 83440</p>
+              <br />
+              <p>☎ 999.999.9999<br />✉ contact@awn.com</p>
+              <div class="icon">
+              </div>
+            </section>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div id="footerbottom">
+        <p>&copy; Clinten Stewart, Faml 100 <span id="currentDate"></span> <br /></p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Ubuntu"] } });
+    </script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
