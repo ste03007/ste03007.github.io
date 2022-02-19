@@ -1,0 +1,66 @@
+@media only screen and (min-width: 60em) {
+
+    header {
+        height: 140px;
+      }
+      main{
+     max-width: 800px;
+      }
+      h1 {
+        font-size: 60px;
+      }
+      h2 {
+        font-size: 35px;
+        max-height: 13px;
+        display: block;
+        padding: 25px;
+      }
+  
+      h3 {
+        font-size: 25px;
+        padding: 10px;
+      }
+      h4 {
+        font-size: 30px;
+        max-height: 13px;
+      }
+      .navigation a {
+        font-size: 25px;
+      }
+      .prestonm img {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        width: auto;
+        float: right;
+        border-width: medium;
+        border-image: round;
+      }
+      div.acurate {
+        font-size: 50px;
+      }
+      .contactArea{
+        display: flex;
+        align-content: center;
+      }
+      .article{
+        padding-bottom: 25px;
+        background-color: #00a7e1;
+        align-content: center;
+      }
+      .socialIcon{
+        width: 85px;
+        height:	auto;
+      }
+      .mtn {
+        float: right;
+      }
+      .flex img{
+       width: 64px;
+       height: auto;
+      }
+      .hero1 source{
+        width: 100%;
+        height: auto;
+      }
+    }
