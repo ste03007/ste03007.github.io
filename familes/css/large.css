@@ -27,6 +27,15 @@
     .navigation a {
       font-size: 25px;
     }
+    .prestonm img {
+      display: block;
+      width: 100%;
+      margin: 0px;
+      width: auto;
+      float: right;
+      border-width: medium;
+      border-image: round;
+    }
     div.acurate {
       font-size: 50px;
     }
