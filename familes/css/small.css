@@ -173,22 +173,12 @@ main {
     background-color: black;
     color: white;
   }
-  
+
   .data {
     display: block;
     padding: 0 5px 5px;
     font-size: 0.8rem;
     text-align: center;
-  }
-  #prestonPancakes {
-    display: none;
-    background: #00a7e1;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  #prestonPancakes p {
-    margin: 0;
   }
   .mtn {
     background-color: #00a7e1;
@@ -207,10 +197,7 @@ main {
     width: 100%;
     height: auto;
   }
-  /*gallery*/
-  
   img {
     justify-content: center;
     border: lightblue;
   }
-  
