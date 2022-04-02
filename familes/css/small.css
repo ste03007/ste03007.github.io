@@ -56,6 +56,19 @@ display: list-item;
 nav {
 background-color: #00171f;
 }
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block; /* needed because of state in small view */
+    flex: 1 1 100%;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+}
 
 .navigation {
 max-width: 80em;
