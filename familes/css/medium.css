@@ -20,6 +20,22 @@
     .moto {
       font-size: 22px;
     }
+    @media only screen and (min-width: 760px) {
+      .🍔 {display: none;}
+      .navigation {
+        display: flex;
+      }
+      .navigation li {
+        display: block; /* needed because of state in small view */
+        flex: 1 1 100%;
+      }
+      .navigation a {
+        text-align: center;
+      }
+      .navigation li:first-child {
+        display: none;
+      }
+    }
     .navigation {
       display: flex;
     }

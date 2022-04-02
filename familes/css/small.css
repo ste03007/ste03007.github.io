@@ -56,8 +56,6 @@ display: list-item;
 nav {
 background-color: #00171f;
 }
-@media only screen and (min-width: 760px) {
-	.🍔 {display: none;}
 .navigation {
     display: flex;
 }
@@ -72,6 +70,22 @@ background-color: #00171f;
     display: none;
 }
 
+.navigation {
+max-width: 80em;
+list-style: none;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+}
+.navigation li:first-child {
+display: block;
+text-align: center;
+}
+.navigation li {
+display: none;
+text-align: center;
+height: 50px;
+}
 
 .contentbox {
 text-align: center;
