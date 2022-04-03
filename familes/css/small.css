@@ -146,7 +146,7 @@ border-right: 4px solid #00a7e1;
       width: 0%;
       height: 2px;
     }
-    .navigation:hover{
+    nav a:hover{
       color: rgba(251,75,2,1);
       background: transparent;
     }
