@@ -1,5 +1,9 @@
 {
     "recommendations": [
-        "hyunkyunmoon.gzipdecompressor"
+        "hyunkyunmoon.gzipdecompressor",
+        "wscats.cors-browser",
+        "negokaz.live-server-preview",
+        "profimedica.live-preview",
+        "ritwickdey.LiveServer"
     ]
 }
