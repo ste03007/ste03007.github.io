@@ -112,7 +112,78 @@ background-color: #f4f8fa;
 border-left: 4px solid #00a7e1;
 border-right: 4px solid #00a7e1;
 }
-
+.navigation {
+    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    .navigation span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .navigation:before,
+    .navigation:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .navigation:before{
+       height: 0%;
+       width: 2px;
+    }
+    .navigation:after {
+      width: 0%;
+      height: 2px;
+    }
+    .navigation:hover{
+      color: rgba(251,75,2,1);
+      background: transparent;
+    }
+    .navigation:hover:before {
+      height: 100%;
+    }
+    .navigation:hover:after {
+      width: 100%;
+    }
+    .navigation span:before,
+    .navigation span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .navigation span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .navigation span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .navigation span:hover:before {
+      height: 100%;
+    }
+    .navigation span:hover:after {
+      width: 100%;
+    }
 main {
 display: flex;
 flex-direction: column;
