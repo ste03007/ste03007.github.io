@@ -112,7 +112,7 @@ background-color: #f4f8fa;
 border-left: 4px solid #00a7e1;
 border-right: 4px solid #00a7e1;
 }
-.navigation {
+nav {
     background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
       line-height: 42px;
       padding: 0;
