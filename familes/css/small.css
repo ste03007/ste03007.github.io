@@ -53,9 +53,7 @@ li {
 display: list-item;
 }
 
-nav {
-background-color: #0f0f0f;
-}
+
 .navigation {
     display: flex;
 }
